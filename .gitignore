@@ -7,7 +7,9 @@ db1b_mkt/quarter/
 
 # DB1B Ticket quarterly files
 db1b_tix/dbtix_*_[1-4].parquet
-db1b_tix/*.csv
+
+# Large CSV files - keep in Dropbox only
+*.csv
 
 # Python cache
 __pycache__/
