@@ -1,0 +1,17 @@
+# Large quarterly raw files (>100MB) - keep in Dropbox only
+# Annual aggregated files are pushed to GitHub
+
+# DB1B Market quarterly files
+db1b_mkt/dbmkt_*_[1-4].parquet
+db1b_mkt/quarter/
+
+# DB1B Ticket quarterly files
+db1b_tix/dbtix_*_[1-4].parquet
+db1b_tix/*.csv
+
+# Python cache
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
