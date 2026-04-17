@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-17T12:34:46",
+  "generated_at": "2026-04-17T12:54:42",
   "overall": {
     "min_period": "1990Q1",
     "max_period": "2026Q1",
@@ -149,6 +149,12 @@
         "2025Q2",
         "2025Q3",
         "2025Q4"
+      ],
+      "notes": [
+        "Q3 2025+ sourced from OD40 (DB1C monthly) rescaled to 10%-sample equivalent.",
+        "Fare and yield ~7-10% lower in OD40 vs legacy DB1B due to different fare-proration algorithms (BTS proprietary vs mileage-prorated net fare).",
+        "AvgMktFare changed 2026-04 to pax-weighted (PWMktFare / MktFarePAX); prior values were biased low.",
+        "See METHODOLOGY.md for full details."
       ]
     },
     "db1b_ticket": {
@@ -289,6 +295,10 @@
         "2024Q4",
         "2025Q1",
         "2025Q2"
+      ],
+      "notes": [
+        "Last DB1B ticket period: 2025 Q2 (legacy quarterly DB1B retired).",
+        "No OD40 replacement for ticket-level RT/OW aggregates is merged yet."
       ]
     },
     "t100_segment": {
@@ -444,6 +454,9 @@
         "2025Q3",
         "2025Q4",
         "2026Q1"
+      ],
+      "notes": [
+        "Always updated with a reporting lag; most recent quarters may have only 1-2 months filed."
       ]
     },
     "t100_market": {
@@ -619,6 +632,10 @@
         "2025-10",
         "2025-11",
         "2025-12"
+      ],
+      "notes": [
+        "Native 40% sample; divide PAX by 0.40 to weight to 100%.",
+        "Market-level carrier uses MktCarrier_1 (first-segment marketing carrier) \u2014 see COMPARABILITY.md for pairing guidance vs DB1B."
       ]
     }
   }
