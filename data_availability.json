@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-17T12:54:42",
+  "generated_at": "2026-04-17T13:24:13",
   "overall": {
     "min_period": "1990Q1",
     "max_period": "2026Q1",
@@ -159,11 +159,11 @@
     },
     "db1b_ticket": {
       "min_period": "1993Q1",
-      "max_period": "2025Q2",
+      "max_period": "2025Q4",
       "min_year": 1993,
       "max_year": 2025,
       "min_quarter": 1,
-      "max_quarter": 2,
+      "max_quarter": 4,
       "quarters": [
         "1993Q1",
         "1993Q2",
@@ -294,11 +294,14 @@
         "2024Q3",
         "2024Q4",
         "2025Q1",
-        "2025Q2"
+        "2025Q2",
+        "2025Q3",
+        "2025Q4"
       ],
       "notes": [
-        "Last DB1B ticket period: 2025 Q2 (legacy quarterly DB1B retired).",
-        "No OD40 replacement for ticket-level RT/OW aggregates is merged yet."
+        "Q3 2025+ sourced from OD40 (DB1C monthly) rescaled to 10%-sample equivalent.",
+        "RT/OW split may show small drift (+1 to +2 pp) at the Q2 \u2192 Q3 2025 boundary; fare/yield ~7-10% lower in OD40 vs legacy DB1B due to different fare-proration algorithms.",
+        "See METHODOLOGY.md for full details."
       ]
     },
     "t100_segment": {
