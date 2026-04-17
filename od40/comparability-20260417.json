@@ -1,0 +1,562 @@
+{
+  "generated_on": "2026-04-17",
+  "results": [
+    {
+      "name": "baseline_yoy",
+      "status": "INFO",
+      "detail": "DB1B YoY range: -1.16% to -0.88% across 2 quarter(s).",
+      "data": {
+        "quarterly": [
+          {
+            "quarter": 1,
+            "pax_2024": 138791920.0,
+            "pax_2025": 137575480.0,
+            "yoy": -0.008764487154583667
+          },
+          {
+            "quarter": 2,
+            "pax_2024": 163320320.0,
+            "pax_2025": 161427260.0,
+            "yoy": -0.011591086767402836
+          }
+        ]
+      }
+    },
+    {
+      "name": "same_q3_yoy",
+      "status": "PASS",
+      "detail": "DB1B 2024 Q3 PAX=159,036,850  OD40 2025 Q3 PAX=157,900,008  YoY=-0.71%  T-100 YoY=-0.33%",
+      "data": {
+        "pax_db1b": 159036850.0,
+        "pax_od40": 157900007.5,
+        "yoy": -0.007148296133883458,
+        "t100_yoy": -0.003328795759623193,
+        "t100_months_2024": 3,
+        "t100_months_2025": 3,
+        "coverage_db1b_of_t100": 0.7114861505162479,
+        "coverage_od40_of_t100": 0.7087595526105234
+      }
+    },
+    {
+      "name": "top_od_q3",
+      "status": "PASS",
+      "detail": "Top-25 overlap=84%, median |share drift|=0.006 pp",
+      "data": {
+        "overlap": 0.84,
+        "median_drift_pp": 0.006326421382896554,
+        "top5_drift": [
+          {
+            "Origin": "LAX",
+            "Dest": "JFK",
+            "share_db1b": 0.00196401022781827,
+            "share_od40": 0.002016719346894268,
+            "share_delta_pp": 0.005270911907599794
+          },
+          {
+            "Origin": "JFK",
+            "Dest": "LAX",
+            "share_db1b": 0.0019569678348131266,
+            "share_od40": 0.0019989549398849774,
+            "share_delta_pp": 0.00419871050718508
+          },
+          {
+            "Origin": "LGA",
+            "Dest": "ORD",
+            "share_db1b": 0.001896981737251461,
+            "share_od40": 0.002003863109379523,
+            "share_delta_pp": 0.010688137212806217
+          },
+          {
+            "Origin": "ORD",
+            "Dest": "LGA",
+            "share_db1b": 0.0018582485757231736,
+            "share_od40": 0.002026029036129083,
+            "share_delta_pp": 0.016778046040590956
+          },
+          {
+            "Origin": "SFO",
+            "Dest": "LAX",
+            "share_db1b": 0.0016479199632034966,
+            "share_od40": 0.001591988524763053,
+            "share_delta_pp": -0.005593143844044362
+          }
+        ]
+      }
+    },
+    {
+      "name": "carriers_q3",
+      "status": "DRIFT",
+      "detail": "Marketing pairing (TkCarrier\u2194MktCarrier_1): max major drift 1.24 pp | Operating: 1.51 pp | Reporting: 5.32 pp",
+      "data": {
+        "blocks": {
+          "mkt": {
+            "max_major_drift_pp": 1.2350225822039733,
+            "majors": [
+              {
+                "Carrier": "WN",
+                "share_db1b": 0.21233173318007745,
+                "share_od40": 0.20485761612954623,
+                "delta_pp": -0.747411705053122
+              },
+              {
+                "Carrier": "AA",
+                "share_db1b": 0.18876279302564153,
+                "share_od40": 0.19086617621987956,
+                "delta_pp": 0.21033831942380288
+              },
+              {
+                "Carrier": "DL",
+                "share_db1b": 0.18303619569929863,
+                "share_od40": 0.1895969202495486,
+                "delta_pp": 0.6560724550249974
+              },
+              {
+                "Carrier": "UA",
+                "share_db1b": 0.14681616241770382,
+                "share_od40": 0.15485706206956698,
+                "delta_pp": 0.8040899651863165
+              },
+              {
+                "Carrier": "AS",
+                "share_db1b": 0.06057696691049905,
+                "share_od40": 0.05574815165219074,
+                "delta_pp": -0.48288152583083055
+              },
+              {
+                "Carrier": "NK",
+                "share_db1b": 0.05631745095554898,
+                "share_od40": 0.043967225133509244,
+                "delta_pp": -1.2350225822039733
+              },
+              {
+                "Carrier": "F9",
+                "share_db1b": 0.045270828741892206,
+                "share_od40": 0.05293357653798188,
+                "delta_pp": 0.7662747796089671
+              },
+              {
+                "Carrier": "B6",
+                "share_db1b": 0.0416666326074743,
+                "share_od40": 0.04083246036865986,
+                "delta_pp": -0.08341722388144415
+              },
+              {
+                "Carrier": "G4",
+                "share_db1b": 0.024982574793200443,
+                "share_od40": 0.02675048681048444,
+                "delta_pp": 0.1767912017283997
+              }
+            ]
+          },
+          "op": {
+            "max_major_drift_pp": 1.507075848859636,
+            "majors": [
+              {
+                "Carrier": "WN",
+                "share_db1b": 0.21233173318007745,
+                "share_od40": 0.20485761612954623,
+                "delta_pp": -0.747411705053122
+              },
+              {
+                "Carrier": "DL",
+                "share_db1b": 0.1420270207816616,
+                "share_od40": 0.15135917110445574,
+                "delta_pp": 0.9332150322794136
+              },
+              {
+                "Carrier": "AA",
+                "share_db1b": 0.1219982035609986,
+                "share_od40": 0.1355037593899222,
+                "delta_pp": 1.3505555828923612
+              },
+              {
+                "Carrier": "UA",
+                "share_db1b": 0.10914728253231877,
+                "share_od40": 0.12421804102091513,
+                "delta_pp": 1.507075848859636
+              },
+              {
+                "Carrier": "NK",
+                "share_db1b": 0.05631745095554898,
+                "share_od40": 0.043967225133509244,
+                "delta_pp": -1.2350225822039733
+              },
+              {
+                "Carrier": "AS",
+                "share_db1b": 0.04567507467608922,
+                "share_od40": 0.04220092654198425,
+                "delta_pp": -0.34741481341049735
+              },
+              {
+                "Carrier": "F9",
+                "share_db1b": 0.045270828741892206,
+                "share_od40": 0.052944682527722275,
+                "delta_pp": 0.7673853785830069
+              },
+              {
+                "Carrier": "B6",
+                "share_db1b": 0.04153986953338173,
+                "share_od40": 0.04081498330891214,
+                "delta_pp": -0.07248862244695897
+              },
+              {
+                "Carrier": "G4",
+                "share_db1b": 0.024982574793200443,
+                "share_od40": 0.02675048681048444,
+                "delta_pp": 0.1767912017283997
+              }
+            ]
+          },
+          "rp": {
+            "max_major_drift_pp": 5.321044735835826,
+            "majors": [
+              {
+                "Carrier": "WN",
+                "share_db1b": 0.212796216725872,
+                "share_od40": 0.20485761612954623,
+                "delta_pp": -0.7938600596325784
+              },
+              {
+                "Carrier": "DL",
+                "share_db1b": 0.15212662977165356,
+                "share_od40": 0.18949428900507265,
+                "delta_pp": 3.736765923341909
+              },
+              {
+                "Carrier": "AA",
+                "share_db1b": 0.13809736548479173,
+                "share_od40": 0.19130781284315,
+                "delta_pp": 5.321044735835826
+              },
+              {
+                "Carrier": "UA",
+                "share_db1b": 0.11846091016012955,
+                "share_od40": 0.15492714383964756,
+                "delta_pp": 3.6466233679518014
+              },
+              {
+                "Carrier": "NK",
+                "share_db1b": 0.05631745095554898,
+                "share_od40": 0.043967225133509244,
+                "delta_pp": -1.2350225822039733
+              },
+              {
+                "Carrier": "AS",
+                "share_db1b": 0.0479449888500684,
+                "share_od40": 0.05524954725118945,
+                "delta_pp": 0.7304558401121048
+              },
+              {
+                "Carrier": "F9",
+                "share_db1b": 0.045270828741892206,
+                "share_od40": 0.05293600597323759,
+                "delta_pp": 0.7665177231345383
+              },
+              {
+                "Carrier": "B6",
+                "share_db1b": 0.04196033812289416,
+                "share_od40": 0.04083583182983105,
+                "delta_pp": -0.11245062930631128
+              },
+              {
+                "Carrier": "G4",
+                "share_db1b": 0.024982574793200443,
+                "share_od40": 0.02675048681048444,
+                "delta_pp": 0.1767912017283997
+              }
+            ]
+          }
+        },
+        "recommended_pairing": "mkt (DB1B.TkCarrier \u2194 OD40.MktCarrier_1)"
+      }
+    },
+    {
+      "name": "fare_q3",
+      "status": "INFO",
+      "detail": "Top-25 overlap pairs: median fare ratio=1.054, yield ratio=1.056",
+      "data": {
+        "median_fare_ratio": 1.0537540299804589,
+        "median_yield_ratio": 1.0561866289428923,
+        "sample_size": 25
+      }
+    },
+    {
+      "name": "rt_share_q3",
+      "status": "PASS",
+      "detail": "DB1B RT=54.0%, OD40 RT=55.9%, drift=1.93 pp",
+      "data": {
+        "db1b_rt": 0.5401703288477853,
+        "od40_rt": 0.5594751656310868,
+        "drift_pp": 1.9304836783301527
+      }
+    },
+    {
+      "name": "same_q4_yoy",
+      "status": "PASS",
+      "detail": "DB1B 2024 Q4 PAX=159,220,480  OD40 2025 Q4 PAX=156,051,915  YoY=-1.99%  T-100 incomplete (2024 Q4:3mo, 2025 Q4:1mo) \u2014 no anchor.",
+      "data": {
+        "pax_db1b": 159220480.0,
+        "pax_od40": 156051915.0,
+        "yoy": -0.019900486419837438,
+        "t100_yoy": null,
+        "t100_months_2024": 3,
+        "t100_months_2025": 1,
+        "coverage_db1b_of_t100": null,
+        "coverage_od40_of_t100": null
+      }
+    },
+    {
+      "name": "top_od_q4",
+      "status": "PASS",
+      "detail": "Top-25 overlap=88%, median |share drift|=0.007 pp",
+      "data": {
+        "overlap": 0.88,
+        "median_drift_pp": 0.0069696120431726825,
+        "top5_drift": [
+          {
+            "Origin": "JFK",
+            "Dest": "LAX",
+            "share_db1b": 0.002165990204275229,
+            "share_od40": 0.0021846736068570514,
+            "share_delta_pp": 0.0018683402581822287
+          },
+          {
+            "Origin": "LAX",
+            "Dest": "JFK",
+            "share_db1b": 0.0021385439863012595,
+            "share_od40": 0.002174292446202919,
+            "share_delta_pp": 0.0035748459901659667
+          },
+          {
+            "Origin": "ORD",
+            "Dest": "LGA",
+            "share_db1b": 0.001789656707478837,
+            "share_od40": 0.0019294059928710262,
+            "share_delta_pp": 0.013974928539218926
+          },
+          {
+            "Origin": "LGA",
+            "Dest": "ORD",
+            "share_db1b": 0.001776655867385904,
+            "share_od40": 0.0018934083570842433,
+            "share_delta_pp": 0.011675248969833931
+          },
+          {
+            "Origin": "SFO",
+            "Dest": "LAX",
+            "share_db1b": 0.001686340852634033,
+            "share_od40": 0.0016141583395500145,
+            "share_delta_pp": -0.007218251308401848
+          }
+        ]
+      }
+    },
+    {
+      "name": "carriers_q4",
+      "status": "DRIFT",
+      "detail": "Marketing pairing (TkCarrier\u2194MktCarrier_1): max major drift 1.42 pp | Operating: 1.65 pp | Reporting: 5.62 pp",
+      "data": {
+        "blocks": {
+          "mkt": {
+            "max_major_drift_pp": 1.424300417289226,
+            "majors": [
+              {
+                "Carrier": "WN",
+                "share_db1b": 0.20942287072617793,
+                "share_od40": 0.2098595725475879,
+                "delta_pp": 0.04367018214099794
+              },
+              {
+                "Carrier": "AA",
+                "share_db1b": 0.19131816459792106,
+                "share_od40": 0.19397132705875733,
+                "delta_pp": 0.26531624608362725
+              },
+              {
+                "Carrier": "DL",
+                "share_db1b": 0.18552563087361626,
+                "share_od40": 0.18400144048918332,
+                "delta_pp": -0.15241903844329385
+              },
+              {
+                "Carrier": "UA",
+                "share_db1b": 0.15440011234735632,
+                "share_od40": 0.1580028728811818,
+                "delta_pp": 0.3602760533825494
+              },
+              {
+                "Carrier": "AS",
+                "share_db1b": 0.05584457476827102,
+                "share_od40": 0.05369774646236525,
+                "delta_pp": -0.21468283059057694
+              },
+              {
+                "Carrier": "NK",
+                "share_db1b": 0.050256600155959834,
+                "share_od40": 0.036013595983067574,
+                "delta_pp": -1.424300417289226
+              },
+              {
+                "Carrier": "F9",
+                "share_db1b": 0.04483003693997154,
+                "share_od40": 0.05735413149241137,
+                "delta_pp": 1.252409455243983
+              },
+              {
+                "Carrier": "B6",
+                "share_db1b": 0.04389686552885659,
+                "share_od40": 0.04341075389143113,
+                "delta_pp": -0.0486111637425464
+              },
+              {
+                "Carrier": "G4",
+                "share_db1b": 0.024023165864089847,
+                "share_od40": 0.027967069154108355,
+                "delta_pp": 0.3943903290018508
+              }
+            ]
+          },
+          "op": {
+            "max_major_drift_pp": 1.6460908874153106,
+            "majors": [
+              {
+                "Carrier": "WN",
+                "share_db1b": 0.20942287072617793,
+                "share_od40": 0.2098595725475879,
+                "delta_pp": 0.04367018214099794
+              },
+              {
+                "Carrier": "DL",
+                "share_db1b": 0.14205634853003835,
+                "share_od40": 0.1471735966591825,
+                "delta_pp": 0.5117248129144158
+              },
+              {
+                "Carrier": "AA",
+                "share_db1b": 0.12204642267125435,
+                "share_od40": 0.13850733154540745,
+                "delta_pp": 1.6460908874153106
+              },
+              {
+                "Carrier": "UA",
+                "share_db1b": 0.11425640721595613,
+                "share_od40": 0.1270765610081886,
+                "delta_pp": 1.282015379223246
+              },
+              {
+                "Carrier": "NK",
+                "share_db1b": 0.050256600155959834,
+                "share_od40": 0.036013595983067574,
+                "delta_pp": -1.424300417289226
+              },
+              {
+                "Carrier": "F9",
+                "share_db1b": 0.04483003693997154,
+                "share_od40": 0.05736103940322938,
+                "delta_pp": 1.253100246325784
+              },
+              {
+                "Carrier": "B6",
+                "share_db1b": 0.04376409366433263,
+                "share_od40": 0.04341328426169413,
+                "delta_pp": -0.03508094026384995
+              },
+              {
+                "Carrier": "AS",
+                "share_db1b": 0.041290605329163683,
+                "share_od40": 0.038460944797745984,
+                "delta_pp": -0.2829660531417699
+              },
+              {
+                "Carrier": "G4",
+                "share_db1b": 0.024023165864089847,
+                "share_od40": 0.027967069154108355,
+                "delta_pp": 0.3943903290018508
+              }
+            ]
+          },
+          "rp": {
+            "max_major_drift_pp": 5.6193948161915115,
+            "majors": [
+              {
+                "Carrier": "WN",
+                "share_db1b": 0.20985334298703281,
+                "share_od40": 0.2098595725475879,
+                "delta_pp": 0.0006229560555098823
+              },
+              {
+                "Carrier": "DL",
+                "share_db1b": 0.15221094673248065,
+                "share_od40": 0.1839529585949441,
+                "delta_pp": 3.1742011862463446
+              },
+              {
+                "Carrier": "AA",
+                "share_db1b": 0.13800668105007596,
+                "share_od40": 0.19420062921199108,
+                "delta_pp": 5.6193948161915115
+              },
+              {
+                "Carrier": "UA",
+                "share_db1b": 0.12363773805982747,
+                "share_od40": 0.15804095495364007,
+                "delta_pp": 3.4403216893812596
+              },
+              {
+                "Carrier": "NK",
+                "share_db1b": 0.050256600155959834,
+                "share_od40": 0.036013595983067574,
+                "delta_pp": -1.424300417289226
+              },
+              {
+                "Carrier": "F9",
+                "share_db1b": 0.04483003693997154,
+                "share_od40": 0.05736091288471623,
+                "delta_pp": 1.2530875944744688
+              },
+              {
+                "Carrier": "B6",
+                "share_db1b": 0.04416963194684503,
+                "share_od40": 0.0434034158176684,
+                "delta_pp": -0.07662161291766278
+              },
+              {
+                "Carrier": "AS",
+                "share_db1b": 0.04337802523896423,
+                "share_od40": 0.05338443601639963,
+                "delta_pp": 1.0006410777435402
+              },
+              {
+                "Carrier": "G4",
+                "share_db1b": 0.024023165864089847,
+                "share_od40": 0.027967069154108355,
+                "delta_pp": 0.3943903290018508
+              }
+            ]
+          }
+        },
+        "recommended_pairing": "mkt (DB1B.TkCarrier \u2194 OD40.MktCarrier_1)"
+      }
+    },
+    {
+      "name": "fare_q4",
+      "status": "INFO",
+      "detail": "Top-25 overlap pairs: median fare ratio=1.024, yield ratio=1.023",
+      "data": {
+        "median_fare_ratio": 1.0238566989485842,
+        "median_yield_ratio": 1.022867646089615,
+        "sample_size": 25
+      }
+    },
+    {
+      "name": "rt_share_q4",
+      "status": "PASS",
+      "detail": "DB1B RT=55.7%, OD40 RT=57.3%, drift=1.61 pp",
+      "data": {
+        "db1b_rt": 0.5570212937040728,
+        "od40_rt": 0.573128004245354,
+        "drift_pp": 1.610671054128121
+      }
+    }
+  ]
+}

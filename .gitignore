@@ -7,6 +7,11 @@ db1b_mkt/quarter/
 
 # DB1B Ticket quarterly files
 db1b_tix/dbtix_*_[1-4].parquet
+db1b_tix/quarter/
+
+# OD40 raw monthly DB1C parquets (>100MB each — Dropbox only)
+# Derived aggregates under od40/mkt, od40/tix, od40/carrier are tracked.
+od40/month/
 
 # Large CSV files - keep in Dropbox only
 *.csv

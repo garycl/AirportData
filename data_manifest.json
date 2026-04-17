@@ -1,0 +1,2104 @@
+[
+  {
+    "dataset": "form41_p6",
+    "year": 2024,
+    "quarter": 1,
+    "downloaded_at": "2026-02-17T14:58:27",
+    "rows": 2038,
+    "file": "form41/p6/form41_p6_2024_Q1.parquet"
+  },
+  {
+    "dataset": "form41_p6",
+    "year": 2024,
+    "quarter": 2,
+    "downloaded_at": "2026-02-17T14:58:31",
+    "rows": 2043,
+    "file": "form41/p6/form41_p6_2024_Q2.parquet"
+  },
+  {
+    "dataset": "form41_p6",
+    "year": 2024,
+    "quarter": 3,
+    "downloaded_at": "2026-02-17T14:58:35",
+    "rows": 2070,
+    "file": "form41/p6/form41_p6_2024_Q3.parquet"
+  },
+  {
+    "dataset": "form41_p6",
+    "year": 2024,
+    "quarter": 4,
+    "downloaded_at": "2026-02-17T14:58:39",
+    "rows": 2011,
+    "file": "form41/p6/form41_p6_2024_Q4.parquet"
+  },
+  {
+    "dataset": "form41_p12",
+    "year": 2024,
+    "quarter": 1,
+    "downloaded_at": "2026-02-17T14:59:34",
+    "rows": 100,
+    "file": "form41/p12/form41_p12_2024_Q1.parquet"
+  },
+  {
+    "dataset": "form41_p12",
+    "year": 2024,
+    "quarter": 2,
+    "downloaded_at": "2026-02-17T14:59:38",
+    "rows": 95,
+    "file": "form41/p12/form41_p12_2024_Q2.parquet"
+  },
+  {
+    "dataset": "form41_p12",
+    "year": 2024,
+    "quarter": 3,
+    "downloaded_at": "2026-02-17T14:59:42",
+    "rows": 95,
+    "file": "form41/p12/form41_p12_2024_Q3.parquet"
+  },
+  {
+    "dataset": "form41_p12",
+    "year": 2024,
+    "quarter": 4,
+    "downloaded_at": "2026-02-17T14:59:46",
+    "rows": 94,
+    "file": "form41/p12/form41_p12_2024_Q4.parquet"
+  },
+  {
+    "dataset": "form41_p52",
+    "year": 2024,
+    "quarter": 1,
+    "downloaded_at": "2026-02-17T14:59:55",
+    "rows": 629,
+    "file": "form41/p52/form41_p52_2024_Q1.parquet"
+  },
+  {
+    "dataset": "form41_p52",
+    "year": 2024,
+    "quarter": 2,
+    "downloaded_at": "2026-02-17T15:00:00",
+    "rows": 593,
+    "file": "form41/p52/form41_p52_2024_Q2.parquet"
+  },
+  {
+    "dataset": "form41_p52",
+    "year": 2024,
+    "quarter": 3,
+    "downloaded_at": "2026-02-17T15:00:04",
+    "rows": 594,
+    "file": "form41/p52/form41_p52_2024_Q3.parquet"
+  },
+  {
+    "dataset": "form41_p52",
+    "year": 2024,
+    "quarter": 4,
+    "downloaded_at": "2026-02-17T15:00:09",
+    "rows": 597,
+    "file": "form41/p52/form41_p52_2024_Q4.parquet"
+  },
+  {
+    "dataset": "form41_p12",
+    "year": 2019,
+    "quarter": 1,
+    "downloaded_at": "2026-02-17T15:02:10",
+    "rows": 100,
+    "file": "form41/p12/form41_p12_2019_Q1.parquet"
+  },
+  {
+    "dataset": "form41_p12",
+    "year": 2019,
+    "quarter": 2,
+    "downloaded_at": "2026-02-17T15:02:14",
+    "rows": 100,
+    "file": "form41/p12/form41_p12_2019_Q2.parquet"
+  },
+  {
+    "dataset": "form41_p12",
+    "year": 2019,
+    "quarter": 3,
+    "downloaded_at": "2026-02-17T15:02:18",
+    "rows": 98,
+    "file": "form41/p12/form41_p12_2019_Q3.parquet"
+  },
+  {
+    "dataset": "form41_p12",
+    "year": 2019,
+    "quarter": 4,
+    "downloaded_at": "2026-02-17T15:02:22",
+    "rows": 100,
+    "file": "form41/p12/form41_p12_2019_Q4.parquet"
+  },
+  {
+    "dataset": "form41_p12",
+    "year": 2020,
+    "quarter": 1,
+    "downloaded_at": "2026-02-17T15:02:25",
+    "rows": 101,
+    "file": "form41/p12/form41_p12_2020_Q1.parquet"
+  },
+  {
+    "dataset": "form41_p12",
+    "year": 2020,
+    "quarter": 2,
+    "downloaded_at": "2026-02-17T15:02:29",
+    "rows": 101,
+    "file": "form41/p12/form41_p12_2020_Q2.parquet"
+  },
+  {
+    "dataset": "form41_p12",
+    "year": 2020,
+    "quarter": 3,
+    "downloaded_at": "2026-02-17T15:02:33",
+    "rows": 99,
+    "file": "form41/p12/form41_p12_2020_Q3.parquet"
+  },
+  {
+    "dataset": "form41_p12",
+    "year": 2020,
+    "quarter": 4,
+    "downloaded_at": "2026-02-17T15:02:37",
+    "rows": 99,
+    "file": "form41/p12/form41_p12_2020_Q4.parquet"
+  },
+  {
+    "dataset": "form41_p12",
+    "year": 2021,
+    "quarter": 1,
+    "downloaded_at": "2026-02-17T15:02:41",
+    "rows": 99,
+    "file": "form41/p12/form41_p12_2021_Q1.parquet"
+  },
+  {
+    "dataset": "form41_p12",
+    "year": 2021,
+    "quarter": 2,
+    "downloaded_at": "2026-02-17T15:02:45",
+    "rows": 98,
+    "file": "form41/p12/form41_p12_2021_Q2.parquet"
+  },
+  {
+    "dataset": "form41_p12",
+    "year": 2021,
+    "quarter": 3,
+    "downloaded_at": "2026-02-17T15:02:49",
+    "rows": 99,
+    "file": "form41/p12/form41_p12_2021_Q3.parquet"
+  },
+  {
+    "dataset": "form41_p12",
+    "year": 2021,
+    "quarter": 4,
+    "downloaded_at": "2026-02-17T15:02:53",
+    "rows": 101,
+    "file": "form41/p12/form41_p12_2021_Q4.parquet"
+  },
+  {
+    "dataset": "form41_p12",
+    "year": 2022,
+    "quarter": 1,
+    "downloaded_at": "2026-02-17T15:02:57",
+    "rows": 97,
+    "file": "form41/p12/form41_p12_2022_Q1.parquet"
+  },
+  {
+    "dataset": "form41_p12",
+    "year": 2022,
+    "quarter": 2,
+    "downloaded_at": "2026-02-17T15:03:01",
+    "rows": 98,
+    "file": "form41/p12/form41_p12_2022_Q2.parquet"
+  },
+  {
+    "dataset": "form41_p12",
+    "year": 2022,
+    "quarter": 3,
+    "downloaded_at": "2026-02-17T15:03:05",
+    "rows": 96,
+    "file": "form41/p12/form41_p12_2022_Q3.parquet"
+  },
+  {
+    "dataset": "form41_p12",
+    "year": 2022,
+    "quarter": 4,
+    "downloaded_at": "2026-02-17T15:03:09",
+    "rows": 98,
+    "file": "form41/p12/form41_p12_2022_Q4.parquet"
+  },
+  {
+    "dataset": "form41_p12",
+    "year": 2023,
+    "quarter": 1,
+    "downloaded_at": "2026-02-17T15:03:13",
+    "rows": 103,
+    "file": "form41/p12/form41_p12_2023_Q1.parquet"
+  },
+  {
+    "dataset": "form41_p12",
+    "year": 2023,
+    "quarter": 2,
+    "downloaded_at": "2026-02-17T15:03:17",
+    "rows": 99,
+    "file": "form41/p12/form41_p12_2023_Q2.parquet"
+  },
+  {
+    "dataset": "form41_p12",
+    "year": 2023,
+    "quarter": 3,
+    "downloaded_at": "2026-02-17T15:03:21",
+    "rows": 101,
+    "file": "form41/p12/form41_p12_2023_Q3.parquet"
+  },
+  {
+    "dataset": "form41_p12",
+    "year": 2023,
+    "quarter": 4,
+    "downloaded_at": "2026-02-17T15:03:24",
+    "rows": 101,
+    "file": "form41/p12/form41_p12_2023_Q4.parquet"
+  },
+  {
+    "dataset": "form41_p12",
+    "year": 2025,
+    "quarter": 1,
+    "downloaded_at": "2026-02-17T15:03:29",
+    "rows": 95,
+    "file": "form41/p12/form41_p12_2025_Q1.parquet"
+  },
+  {
+    "dataset": "form41_p12",
+    "year": 2025,
+    "quarter": 2,
+    "downloaded_at": "2026-02-17T15:03:32",
+    "rows": 93,
+    "file": "form41/p12/form41_p12_2025_Q2.parquet"
+  },
+  {
+    "dataset": "form41_p12",
+    "year": 2025,
+    "quarter": 3,
+    "downloaded_at": "2026-02-17T15:03:36",
+    "rows": 95,
+    "file": "form41/p12/form41_p12_2025_Q3.parquet"
+  },
+  {
+    "dataset": "form41_p52",
+    "year": 2019,
+    "quarter": 1,
+    "downloaded_at": "2026-02-17T15:03:44",
+    "rows": 522,
+    "file": "form41/p52/form41_p52_2019_Q1.parquet"
+  },
+  {
+    "dataset": "form41_p52",
+    "year": 2019,
+    "quarter": 2,
+    "downloaded_at": "2026-02-17T15:03:49",
+    "rows": 522,
+    "file": "form41/p52/form41_p52_2019_Q2.parquet"
+  },
+  {
+    "dataset": "form41_p52",
+    "year": 2019,
+    "quarter": 3,
+    "downloaded_at": "2026-02-17T15:03:54",
+    "rows": 512,
+    "file": "form41/p52/form41_p52_2019_Q3.parquet"
+  },
+  {
+    "dataset": "form41_p52",
+    "year": 2019,
+    "quarter": 4,
+    "downloaded_at": "2026-02-17T15:03:58",
+    "rows": 517,
+    "file": "form41/p52/form41_p52_2019_Q4.parquet"
+  },
+  {
+    "dataset": "form41_p52",
+    "year": 2020,
+    "quarter": 1,
+    "downloaded_at": "2026-02-17T15:04:02",
+    "rows": 524,
+    "file": "form41/p52/form41_p52_2020_Q1.parquet"
+  },
+  {
+    "dataset": "form41_p52",
+    "year": 2020,
+    "quarter": 2,
+    "downloaded_at": "2026-02-17T15:04:07",
+    "rows": 529,
+    "file": "form41/p52/form41_p52_2020_Q2.parquet"
+  },
+  {
+    "dataset": "form41_p52",
+    "year": 2020,
+    "quarter": 3,
+    "downloaded_at": "2026-02-17T15:04:11",
+    "rows": 529,
+    "file": "form41/p52/form41_p52_2020_Q3.parquet"
+  },
+  {
+    "dataset": "form41_p52",
+    "year": 2020,
+    "quarter": 4,
+    "downloaded_at": "2026-02-17T15:04:16",
+    "rows": 531,
+    "file": "form41/p52/form41_p52_2020_Q4.parquet"
+  },
+  {
+    "dataset": "form41_p52",
+    "year": 2021,
+    "quarter": 1,
+    "downloaded_at": "2026-02-17T15:04:20",
+    "rows": 545,
+    "file": "form41/p52/form41_p52_2021_Q1.parquet"
+  },
+  {
+    "dataset": "form41_p52",
+    "year": 2021,
+    "quarter": 2,
+    "downloaded_at": "2026-02-17T15:04:26",
+    "rows": 550,
+    "file": "form41/p52/form41_p52_2021_Q2.parquet"
+  },
+  {
+    "dataset": "form41_p52",
+    "year": 2021,
+    "quarter": 3,
+    "downloaded_at": "2026-02-17T15:04:30",
+    "rows": 554,
+    "file": "form41/p52/form41_p52_2021_Q3.parquet"
+  },
+  {
+    "dataset": "form41_p52",
+    "year": 2021,
+    "quarter": 4,
+    "downloaded_at": "2026-02-17T15:04:35",
+    "rows": 556,
+    "file": "form41/p52/form41_p52_2021_Q4.parquet"
+  },
+  {
+    "dataset": "form41_p52",
+    "year": 2022,
+    "quarter": 1,
+    "downloaded_at": "2026-02-17T15:04:40",
+    "rows": 548,
+    "file": "form41/p52/form41_p52_2022_Q1.parquet"
+  },
+  {
+    "dataset": "form41_p52",
+    "year": 2022,
+    "quarter": 2,
+    "downloaded_at": "2026-02-17T15:04:44",
+    "rows": 561,
+    "file": "form41/p52/form41_p52_2022_Q2.parquet"
+  },
+  {
+    "dataset": "form41_p52",
+    "year": 2022,
+    "quarter": 3,
+    "downloaded_at": "2026-02-17T15:04:48",
+    "rows": 564,
+    "file": "form41/p52/form41_p52_2022_Q3.parquet"
+  },
+  {
+    "dataset": "form41_p52",
+    "year": 2022,
+    "quarter": 4,
+    "downloaded_at": "2026-02-17T15:04:53",
+    "rows": 562,
+    "file": "form41/p52/form41_p52_2022_Q4.parquet"
+  },
+  {
+    "dataset": "form41_p52",
+    "year": 2023,
+    "quarter": 1,
+    "downloaded_at": "2026-02-17T15:04:58",
+    "rows": 582,
+    "file": "form41/p52/form41_p52_2023_Q1.parquet"
+  },
+  {
+    "dataset": "form41_p52",
+    "year": 2023,
+    "quarter": 2,
+    "downloaded_at": "2026-02-17T15:05:02",
+    "rows": 584,
+    "file": "form41/p52/form41_p52_2023_Q2.parquet"
+  },
+  {
+    "dataset": "form41_p52",
+    "year": 2023,
+    "quarter": 3,
+    "downloaded_at": "2026-02-17T15:05:06",
+    "rows": 590,
+    "file": "form41/p52/form41_p52_2023_Q3.parquet"
+  },
+  {
+    "dataset": "form41_p52",
+    "year": 2023,
+    "quarter": 4,
+    "downloaded_at": "2026-02-17T15:05:11",
+    "rows": 590,
+    "file": "form41/p52/form41_p52_2023_Q4.parquet"
+  },
+  {
+    "dataset": "form41_p52",
+    "year": 2025,
+    "quarter": 1,
+    "downloaded_at": "2026-02-17T15:05:16",
+    "rows": 590,
+    "file": "form41/p52/form41_p52_2025_Q1.parquet"
+  },
+  {
+    "dataset": "form41_p52",
+    "year": 2025,
+    "quarter": 2,
+    "downloaded_at": "2026-02-17T15:05:20",
+    "rows": 582,
+    "file": "form41/p52/form41_p52_2025_Q2.parquet"
+  },
+  {
+    "dataset": "form41_p52",
+    "year": 2025,
+    "quarter": 3,
+    "downloaded_at": "2026-02-17T15:05:24",
+    "rows": 596,
+    "file": "form41/p52/form41_p52_2025_Q3.parquet"
+  },
+  {
+    "dataset": "form41_p6",
+    "year": 2019,
+    "quarter": 1,
+    "downloaded_at": "2026-02-17T15:05:32",
+    "rows": 2110,
+    "file": "form41/p6/form41_p6_2019_Q1.parquet"
+  },
+  {
+    "dataset": "form41_p6",
+    "year": 2019,
+    "quarter": 2,
+    "downloaded_at": "2026-02-17T15:05:36",
+    "rows": 2081,
+    "file": "form41/p6/form41_p6_2019_Q2.parquet"
+  },
+  {
+    "dataset": "form41_p6",
+    "year": 2019,
+    "quarter": 3,
+    "downloaded_at": "2026-02-17T15:05:40",
+    "rows": 2063,
+    "file": "form41/p6/form41_p6_2019_Q3.parquet"
+  },
+  {
+    "dataset": "form41_p6",
+    "year": 2019,
+    "quarter": 4,
+    "downloaded_at": "2026-02-17T15:05:44",
+    "rows": 2041,
+    "file": "form41/p6/form41_p6_2019_Q4.parquet"
+  },
+  {
+    "dataset": "form41_p6",
+    "year": 2020,
+    "quarter": 1,
+    "downloaded_at": "2026-02-17T15:05:48",
+    "rows": 2043,
+    "file": "form41/p6/form41_p6_2020_Q1.parquet"
+  },
+  {
+    "dataset": "form41_p6",
+    "year": 2020,
+    "quarter": 2,
+    "downloaded_at": "2026-02-17T15:05:52",
+    "rows": 1879,
+    "file": "form41/p6/form41_p6_2020_Q2.parquet"
+  },
+  {
+    "dataset": "form41_p6",
+    "year": 2020,
+    "quarter": 3,
+    "downloaded_at": "2026-02-17T15:05:56",
+    "rows": 1958,
+    "file": "form41/p6/form41_p6_2020_Q3.parquet"
+  },
+  {
+    "dataset": "form41_p6",
+    "year": 2020,
+    "quarter": 4,
+    "downloaded_at": "2026-02-17T15:06:00",
+    "rows": 1964,
+    "file": "form41/p6/form41_p6_2020_Q4.parquet"
+  },
+  {
+    "dataset": "form41_p6",
+    "year": 2021,
+    "quarter": 1,
+    "downloaded_at": "2026-02-17T15:06:04",
+    "rows": 1992,
+    "file": "form41/p6/form41_p6_2021_Q1.parquet"
+  },
+  {
+    "dataset": "form41_p6",
+    "year": 2021,
+    "quarter": 2,
+    "downloaded_at": "2026-02-17T15:06:07",
+    "rows": 2048,
+    "file": "form41/p6/form41_p6_2021_Q2.parquet"
+  },
+  {
+    "dataset": "form41_p6",
+    "year": 2021,
+    "quarter": 3,
+    "downloaded_at": "2026-02-17T15:06:11",
+    "rows": 2099,
+    "file": "form41/p6/form41_p6_2021_Q3.parquet"
+  },
+  {
+    "dataset": "form41_p6",
+    "year": 2021,
+    "quarter": 4,
+    "downloaded_at": "2026-02-17T15:06:15",
+    "rows": 2098,
+    "file": "form41/p6/form41_p6_2021_Q4.parquet"
+  },
+  {
+    "dataset": "form41_p6",
+    "year": 2022,
+    "quarter": 1,
+    "downloaded_at": "2026-02-17T15:06:20",
+    "rows": 2080,
+    "file": "form41/p6/form41_p6_2022_Q1.parquet"
+  },
+  {
+    "dataset": "form41_p6",
+    "year": 2022,
+    "quarter": 2,
+    "downloaded_at": "2026-02-17T15:06:24",
+    "rows": 2174,
+    "file": "form41/p6/form41_p6_2022_Q2.parquet"
+  },
+  {
+    "dataset": "form41_p6",
+    "year": 2022,
+    "quarter": 3,
+    "downloaded_at": "2026-02-17T15:06:28",
+    "rows": 2116,
+    "file": "form41/p6/form41_p6_2022_Q3.parquet"
+  },
+  {
+    "dataset": "form41_p6",
+    "year": 2022,
+    "quarter": 4,
+    "downloaded_at": "2026-02-17T15:06:32",
+    "rows": 2082,
+    "file": "form41/p6/form41_p6_2022_Q4.parquet"
+  },
+  {
+    "dataset": "form41_p6",
+    "year": 2023,
+    "quarter": 1,
+    "downloaded_at": "2026-02-17T15:06:36",
+    "rows": 2034,
+    "file": "form41/p6/form41_p6_2023_Q1.parquet"
+  },
+  {
+    "dataset": "form41_p6",
+    "year": 2023,
+    "quarter": 2,
+    "downloaded_at": "2026-02-17T15:06:40",
+    "rows": 1989,
+    "file": "form41/p6/form41_p6_2023_Q2.parquet"
+  },
+  {
+    "dataset": "form41_p6",
+    "year": 2023,
+    "quarter": 3,
+    "downloaded_at": "2026-02-17T15:06:43",
+    "rows": 2019,
+    "file": "form41/p6/form41_p6_2023_Q3.parquet"
+  },
+  {
+    "dataset": "form41_p6",
+    "year": 2023,
+    "quarter": 4,
+    "downloaded_at": "2026-02-17T15:06:47",
+    "rows": 2009,
+    "file": "form41/p6/form41_p6_2023_Q4.parquet"
+  },
+  {
+    "dataset": "form41_p6",
+    "year": 2025,
+    "quarter": 1,
+    "downloaded_at": "2026-02-17T15:06:51",
+    "rows": 2008,
+    "file": "form41/p6/form41_p6_2025_Q1.parquet"
+  },
+  {
+    "dataset": "form41_p6",
+    "year": 2025,
+    "quarter": 2,
+    "downloaded_at": "2026-02-17T15:06:56",
+    "rows": 2052,
+    "file": "form41/p6/form41_p6_2025_Q2.parquet"
+  },
+  {
+    "dataset": "form41_p6",
+    "year": 2025,
+    "quarter": 3,
+    "downloaded_at": "2026-02-17T15:06:59",
+    "rows": 2003,
+    "file": "form41/p6/form41_p6_2025_Q3.parquet"
+  },
+  {
+    "dataset": "db1b_market",
+    "year": 1993,
+    "quarter": 1,
+    "downloaded_at": "2026-03-10T06:03:03",
+    "rows": 2798543,
+    "file": "db1b_mkt/quarter/dbmkt_1993_Q1.parquet"
+  },
+  {
+    "dataset": "db1b_market",
+    "year": 1993,
+    "quarter": 2,
+    "downloaded_at": "2026-03-10T06:04:05",
+    "rows": 3560769,
+    "file": "db1b_mkt/quarter/dbmkt_1993_Q2.parquet"
+  },
+  {
+    "dataset": "db1b_market",
+    "year": 1993,
+    "quarter": 3,
+    "downloaded_at": "2026-03-10T06:04:54",
+    "rows": 3394777,
+    "file": "db1b_mkt/quarter/dbmkt_1993_Q3.parquet"
+  },
+  {
+    "dataset": "db1b_market",
+    "year": 1993,
+    "quarter": 4,
+    "downloaded_at": "2026-03-10T06:05:42",
+    "rows": 3429007,
+    "file": "db1b_mkt/quarter/dbmkt_1993_Q4.parquet"
+  },
+  {
+    "dataset": "db1b_market",
+    "year": 1994,
+    "quarter": 1,
+    "downloaded_at": "2026-03-10T06:09:04",
+    "rows": 2876398,
+    "file": "db1b_mkt/quarter/dbmkt_1994_Q1.parquet"
+  },
+  {
+    "dataset": "db1b_market",
+    "year": 1994,
+    "quarter": 2,
+    "downloaded_at": "2026-03-10T06:13:56",
+    "rows": 3133457,
+    "file": "db1b_mkt/quarter/dbmkt_1994_Q2.parquet"
+  },
+  {
+    "dataset": "db1b_market",
+    "year": 1994,
+    "quarter": 3,
+    "downloaded_at": "2026-03-10T06:18:12",
+    "rows": 3214432,
+    "file": "db1b_mkt/quarter/dbmkt_1994_Q3.parquet"
+  },
+  {
+    "dataset": "db1b_market",
+    "year": 1994,
+    "quarter": 4,
+    "downloaded_at": "2026-03-10T06:21:25",
+    "rows": 3320930,
+    "file": "db1b_mkt/quarter/dbmkt_1994_Q4.parquet"
+  },
+  {
+    "dataset": "db1b_market",
+    "year": 1995,
+    "quarter": 1,
+    "downloaded_at": "2026-03-10T06:22:22",
+    "rows": 3143532,
+    "file": "db1b_mkt/quarter/dbmkt_1995_Q1.parquet"
+  },
+  {
+    "dataset": "db1b_market",
+    "year": 1995,
+    "quarter": 2,
+    "downloaded_at": "2026-03-10T06:23:12",
+    "rows": 3404714,
+    "file": "db1b_mkt/quarter/dbmkt_1995_Q2.parquet"
+  },
+  {
+    "dataset": "db1b_market",
+    "year": 1995,
+    "quarter": 3,
+    "downloaded_at": "2026-03-10T06:24:00",
+    "rows": 3411357,
+    "file": "db1b_mkt/quarter/dbmkt_1995_Q3.parquet"
+  },
+  {
+    "dataset": "db1b_market",
+    "year": 1995,
+    "quarter": 4,
+    "downloaded_at": "2026-03-10T06:27:39",
+    "rows": 3637924,
+    "file": "db1b_mkt/quarter/dbmkt_1995_Q4.parquet"
+  },
+  {
+    "dataset": "db1b_market",
+    "year": 1996,
+    "quarter": 1,
+    "downloaded_at": "2026-03-10T06:28:40",
+    "rows": 3656448,
+    "file": "db1b_mkt/quarter/dbmkt_1996_Q1.parquet"
+  },
+  {
+    "dataset": "db1b_market",
+    "year": 1996,
+    "quarter": 2,
+    "downloaded_at": "2026-03-10T06:29:32",
+    "rows": 3660265,
+    "file": "db1b_mkt/quarter/dbmkt_1996_Q2.parquet"
+  },
+  {
+    "dataset": "db1b_market",
+    "year": 1996,
+    "quarter": 3,
+    "downloaded_at": "2026-03-10T06:30:23",
+    "rows": 3580997,
+    "file": "db1b_mkt/quarter/dbmkt_1996_Q3.parquet"
+  },
+  {
+    "dataset": "db1b_market",
+    "year": 1996,
+    "quarter": 4,
+    "downloaded_at": "2026-03-10T06:31:15",
+    "rows": 3726299,
+    "file": "db1b_mkt/quarter/dbmkt_1996_Q4.parquet"
+  },
+  {
+    "dataset": "db1b_market",
+    "year": 1997,
+    "quarter": 1,
+    "downloaded_at": "2026-03-10T06:34:28",
+    "rows": 3466137,
+    "file": "db1b_mkt/quarter/dbmkt_1997_Q1.parquet"
+  },
+  {
+    "dataset": "db1b_market",
+    "year": 1997,
+    "quarter": 2,
+    "downloaded_at": "2026-03-10T06:36:42",
+    "rows": 3876631,
+    "file": "db1b_mkt/quarter/dbmkt_1997_Q2.parquet"
+  },
+  {
+    "dataset": "db1b_market",
+    "year": 1997,
+    "quarter": 3,
+    "downloaded_at": "2026-03-10T06:39:23",
+    "rows": 3871352,
+    "file": "db1b_mkt/quarter/dbmkt_1997_Q3.parquet"
+  },
+  {
+    "dataset": "db1b_market",
+    "year": 1997,
+    "quarter": 4,
+    "downloaded_at": "2026-03-10T06:42:56",
+    "rows": 3809298,
+    "file": "db1b_mkt/quarter/dbmkt_1997_Q4.parquet"
+  },
+  {
+    "dataset": "db1b_market",
+    "year": 1998,
+    "quarter": 1,
+    "downloaded_at": "2026-03-10T06:45:30",
+    "rows": 3427602,
+    "file": "db1b_mkt/quarter/dbmkt_1998_Q1.parquet"
+  },
+  {
+    "dataset": "db1b_market",
+    "year": 1998,
+    "quarter": 2,
+    "downloaded_at": "2026-03-10T06:46:26",
+    "rows": 3905922,
+    "file": "db1b_mkt/quarter/dbmkt_1998_Q2.parquet"
+  },
+  {
+    "dataset": "db1b_market",
+    "year": 1998,
+    "quarter": 3,
+    "downloaded_at": "2026-03-10T06:49:24",
+    "rows": 4010348,
+    "file": "db1b_mkt/quarter/dbmkt_1998_Q3.parquet"
+  },
+  {
+    "dataset": "db1b_market",
+    "year": 1998,
+    "quarter": 4,
+    "downloaded_at": "2026-03-10T06:51:29",
+    "rows": 4309485,
+    "file": "db1b_mkt/quarter/dbmkt_1998_Q4.parquet"
+  },
+  {
+    "dataset": "db1b_market",
+    "year": 1999,
+    "quarter": 1,
+    "downloaded_at": "2026-03-10T06:57:06",
+    "rows": 3913424,
+    "file": "db1b_mkt/quarter/dbmkt_1999_Q1.parquet"
+  },
+  {
+    "dataset": "db1b_market",
+    "year": 1999,
+    "quarter": 2,
+    "downloaded_at": "2026-03-10T06:58:07",
+    "rows": 4329716,
+    "file": "db1b_mkt/quarter/dbmkt_1999_Q2.parquet"
+  },
+  {
+    "dataset": "db1b_market",
+    "year": 1999,
+    "quarter": 3,
+    "downloaded_at": "2026-03-10T06:59:07",
+    "rows": 4330481,
+    "file": "db1b_mkt/quarter/dbmkt_1999_Q3.parquet"
+  },
+  {
+    "dataset": "db1b_market",
+    "year": 1999,
+    "quarter": 4,
+    "downloaded_at": "2026-03-10T07:00:10",
+    "rows": 4542816,
+    "file": "db1b_mkt/quarter/dbmkt_1999_Q4.parquet"
+  },
+  {
+    "dataset": "db1b_market",
+    "year": 2000,
+    "quarter": 1,
+    "downloaded_at": "2026-03-10T07:04:18",
+    "rows": 4409439,
+    "file": "db1b_mkt/quarter/dbmkt_2000_Q1.parquet"
+  },
+  {
+    "dataset": "db1b_market",
+    "year": 2000,
+    "quarter": 2,
+    "downloaded_at": "2026-03-10T07:08:08",
+    "rows": 4926593,
+    "file": "db1b_mkt/quarter/dbmkt_2000_Q2.parquet"
+  },
+  {
+    "dataset": "db1b_market",
+    "year": 2000,
+    "quarter": 3,
+    "downloaded_at": "2026-03-10T07:10:03",
+    "rows": 4575567,
+    "file": "db1b_mkt/quarter/dbmkt_2000_Q3.parquet"
+  },
+  {
+    "dataset": "db1b_market",
+    "year": 2000,
+    "quarter": 4,
+    "downloaded_at": "2026-03-10T07:13:56",
+    "rows": 4781497,
+    "file": "db1b_mkt/quarter/dbmkt_2000_Q4.parquet"
+  },
+  {
+    "dataset": "db1b_market",
+    "year": 2001,
+    "quarter": 1,
+    "downloaded_at": "2026-03-10T07:22:10",
+    "rows": 4225148,
+    "file": "db1b_mkt/quarter/dbmkt_2001_Q1.parquet"
+  },
+  {
+    "dataset": "db1b_market",
+    "year": 2001,
+    "quarter": 3,
+    "downloaded_at": "2026-03-10T07:46:02",
+    "rows": 4385824,
+    "file": "db1b_mkt/quarter/dbmkt_2001_Q3.parquet"
+  },
+  {
+    "dataset": "db1b_market",
+    "year": 2001,
+    "quarter": 4,
+    "downloaded_at": "2026-03-10T07:47:48",
+    "rows": 4299372,
+    "file": "db1b_mkt/quarter/dbmkt_2001_Q4.parquet"
+  },
+  {
+    "dataset": "db1b_market",
+    "year": 2002,
+    "quarter": 1,
+    "downloaded_at": "2026-03-10T07:48:55",
+    "rows": 4257176,
+    "file": "db1b_mkt/quarter/dbmkt_2002_Q1.parquet"
+  },
+  {
+    "dataset": "db1b_market",
+    "year": 2002,
+    "quarter": 2,
+    "downloaded_at": "2026-03-10T07:52:13",
+    "rows": 4670360,
+    "file": "db1b_mkt/quarter/dbmkt_2002_Q2.parquet"
+  },
+  {
+    "dataset": "db1b_market",
+    "year": 2002,
+    "quarter": 3,
+    "downloaded_at": "2026-03-10T07:53:20",
+    "rows": 4521386,
+    "file": "db1b_mkt/quarter/dbmkt_2002_Q3.parquet"
+  },
+  {
+    "dataset": "db1b_market",
+    "year": 2002,
+    "quarter": 4,
+    "downloaded_at": "2026-03-10T07:58:22",
+    "rows": 4457243,
+    "file": "db1b_mkt/quarter/dbmkt_2002_Q4.parquet"
+  },
+  {
+    "dataset": "db1b_market",
+    "year": 2003,
+    "quarter": 2,
+    "downloaded_at": "2026-03-10T08:01:41",
+    "rows": 4690134,
+    "file": "db1b_mkt/quarter/dbmkt_2003_Q2.parquet"
+  },
+  {
+    "dataset": "db1b_market",
+    "year": 2003,
+    "quarter": 3,
+    "downloaded_at": "2026-03-10T08:06:07",
+    "rows": 4402915,
+    "file": "db1b_mkt/quarter/dbmkt_2003_Q3.parquet"
+  },
+  {
+    "dataset": "db1b_market",
+    "year": 2004,
+    "quarter": 1,
+    "downloaded_at": "2026-03-10T08:58:10",
+    "rows": 4243718,
+    "file": "db1b_mkt/quarter/dbmkt_2004_Q1.parquet"
+  },
+  {
+    "dataset": "db1b_market",
+    "year": 2004,
+    "quarter": 2,
+    "downloaded_at": "2026-03-10T08:59:21",
+    "rows": 4950570,
+    "file": "db1b_mkt/quarter/dbmkt_2004_Q2.parquet"
+  },
+  {
+    "dataset": "db1b_market",
+    "year": 2004,
+    "quarter": 3,
+    "downloaded_at": "2026-03-10T09:00:29",
+    "rows": 4667476,
+    "file": "db1b_mkt/quarter/dbmkt_2004_Q3.parquet"
+  },
+  {
+    "dataset": "db1b_market",
+    "year": 2004,
+    "quarter": 4,
+    "downloaded_at": "2026-03-10T09:01:40",
+    "rows": 5032427,
+    "file": "db1b_mkt/quarter/dbmkt_2004_Q4.parquet"
+  },
+  {
+    "dataset": "db1b_market",
+    "year": 2005,
+    "quarter": 1,
+    "downloaded_at": "2026-03-10T09:03:05",
+    "rows": 4663809,
+    "file": "db1b_mkt/quarter/dbmkt_2005_Q1.parquet"
+  },
+  {
+    "dataset": "db1b_market",
+    "year": 2005,
+    "quarter": 2,
+    "downloaded_at": "2026-03-10T09:04:18",
+    "rows": 5329759,
+    "file": "db1b_mkt/quarter/dbmkt_2005_Q2.parquet"
+  },
+  {
+    "dataset": "db1b_market",
+    "year": 2005,
+    "quarter": 3,
+    "downloaded_at": "2026-03-10T09:05:32",
+    "rows": 5198296,
+    "file": "db1b_mkt/quarter/dbmkt_2005_Q3.parquet"
+  },
+  {
+    "dataset": "db1b_market",
+    "year": 2005,
+    "quarter": 4,
+    "downloaded_at": "2026-03-10T09:06:48",
+    "rows": 5131012,
+    "file": "db1b_mkt/quarter/dbmkt_2005_Q4.parquet"
+  },
+  {
+    "dataset": "db1b_market",
+    "year": 2006,
+    "quarter": 1,
+    "downloaded_at": "2026-03-10T09:08:13",
+    "rows": 4776596,
+    "file": "db1b_mkt/quarter/dbmkt_2006_Q1.parquet"
+  },
+  {
+    "dataset": "db1b_market",
+    "year": 2006,
+    "quarter": 2,
+    "downloaded_at": "2026-03-10T09:09:36",
+    "rows": 5476476,
+    "file": "db1b_mkt/quarter/dbmkt_2006_Q2.parquet"
+  },
+  {
+    "dataset": "db1b_market",
+    "year": 2006,
+    "quarter": 3,
+    "downloaded_at": "2026-03-10T09:10:50",
+    "rows": 5139735,
+    "file": "db1b_mkt/quarter/dbmkt_2006_Q3.parquet"
+  },
+  {
+    "dataset": "db1b_market",
+    "year": 2006,
+    "quarter": 4,
+    "downloaded_at": "2026-03-10T09:12:05",
+    "rows": 5141974,
+    "file": "db1b_mkt/quarter/dbmkt_2006_Q4.parquet"
+  },
+  {
+    "dataset": "db1b_market",
+    "year": 2007,
+    "quarter": 1,
+    "downloaded_at": "2026-03-10T09:13:39",
+    "rows": 4795202,
+    "file": "db1b_mkt/quarter/dbmkt_2007_Q1.parquet"
+  },
+  {
+    "dataset": "db1b_market",
+    "year": 2007,
+    "quarter": 2,
+    "downloaded_at": "2026-03-10T09:14:55",
+    "rows": 5388985,
+    "file": "db1b_mkt/quarter/dbmkt_2007_Q2.parquet"
+  },
+  {
+    "dataset": "db1b_market",
+    "year": 2007,
+    "quarter": 3,
+    "downloaded_at": "2026-03-10T09:16:10",
+    "rows": 5255983,
+    "file": "db1b_mkt/quarter/dbmkt_2007_Q3.parquet"
+  },
+  {
+    "dataset": "db1b_market",
+    "year": 2007,
+    "quarter": 4,
+    "downloaded_at": "2026-03-10T09:17:28",
+    "rows": 5338581,
+    "file": "db1b_mkt/quarter/dbmkt_2007_Q4.parquet"
+  },
+  {
+    "dataset": "db1b_market",
+    "year": 2008,
+    "quarter": 1,
+    "downloaded_at": "2026-03-10T09:18:56",
+    "rows": 4976283,
+    "file": "db1b_mkt/quarter/dbmkt_2008_Q1.parquet"
+  },
+  {
+    "dataset": "db1b_market",
+    "year": 2008,
+    "quarter": 2,
+    "downloaded_at": "2026-03-10T09:20:18",
+    "rows": 5939525,
+    "file": "db1b_mkt/quarter/dbmkt_2008_Q2.parquet"
+  },
+  {
+    "dataset": "db1b_market",
+    "year": 2008,
+    "quarter": 3,
+    "downloaded_at": "2026-03-10T09:21:33",
+    "rows": 5251799,
+    "file": "db1b_mkt/quarter/dbmkt_2008_Q3.parquet"
+  },
+  {
+    "dataset": "db1b_market",
+    "year": 2008,
+    "quarter": 4,
+    "downloaded_at": "2026-03-10T09:22:45",
+    "rows": 5065356,
+    "file": "db1b_mkt/quarter/dbmkt_2008_Q4.parquet"
+  },
+  {
+    "dataset": "db1b_market",
+    "year": 2009,
+    "quarter": 1,
+    "downloaded_at": "2026-03-10T09:24:11",
+    "rows": 4383572,
+    "file": "db1b_mkt/quarter/dbmkt_2009_Q1.parquet"
+  },
+  {
+    "dataset": "db1b_market",
+    "year": 2009,
+    "quarter": 2,
+    "downloaded_at": "2026-03-10T09:25:28",
+    "rows": 5229471,
+    "file": "db1b_mkt/quarter/dbmkt_2009_Q2.parquet"
+  },
+  {
+    "dataset": "db1b_market",
+    "year": 2009,
+    "quarter": 3,
+    "downloaded_at": "2026-03-10T09:26:45",
+    "rows": 5330911,
+    "file": "db1b_mkt/quarter/dbmkt_2009_Q3.parquet"
+  },
+  {
+    "dataset": "db1b_market",
+    "year": 2009,
+    "quarter": 4,
+    "downloaded_at": "2026-03-10T09:28:06",
+    "rows": 5477362,
+    "file": "db1b_mkt/quarter/dbmkt_2009_Q4.parquet"
+  },
+  {
+    "dataset": "db1b_market",
+    "year": 2010,
+    "quarter": 1,
+    "downloaded_at": "2026-03-10T09:31:29",
+    "rows": 4906864,
+    "file": "db1b_mkt/quarter/dbmkt_2010_Q1.parquet"
+  },
+  {
+    "dataset": "db1b_market",
+    "year": 2010,
+    "quarter": 2,
+    "downloaded_at": "2026-03-10T09:33:04",
+    "rows": 5782414,
+    "file": "db1b_mkt/quarter/dbmkt_2010_Q2.parquet"
+  },
+  {
+    "dataset": "db1b_market",
+    "year": 2010,
+    "quarter": 3,
+    "downloaded_at": "2026-03-10T09:34:29",
+    "rows": 5613491,
+    "file": "db1b_mkt/quarter/dbmkt_2010_Q3.parquet"
+  },
+  {
+    "dataset": "db1b_market",
+    "year": 2010,
+    "quarter": 4,
+    "downloaded_at": "2026-03-10T09:36:06",
+    "rows": 5735916,
+    "file": "db1b_mkt/quarter/dbmkt_2010_Q4.parquet"
+  },
+  {
+    "dataset": "db1b_market",
+    "year": 2011,
+    "quarter": 1,
+    "downloaded_at": "2026-03-10T09:37:44",
+    "rows": 5382059,
+    "file": "db1b_mkt/quarter/dbmkt_2011_Q1.parquet"
+  },
+  {
+    "dataset": "db1b_market",
+    "year": 2011,
+    "quarter": 2,
+    "downloaded_at": "2026-03-10T09:39:13",
+    "rows": 5935437,
+    "file": "db1b_mkt/quarter/dbmkt_2011_Q2.parquet"
+  },
+  {
+    "dataset": "db1b_market",
+    "year": 2011,
+    "quarter": 3,
+    "downloaded_at": "2026-03-10T09:40:37",
+    "rows": 5931080,
+    "file": "db1b_mkt/quarter/dbmkt_2011_Q3.parquet"
+  },
+  {
+    "dataset": "db1b_market",
+    "year": 2011,
+    "quarter": 4,
+    "downloaded_at": "2026-03-10T09:41:59",
+    "rows": 5750599,
+    "file": "db1b_mkt/quarter/dbmkt_2011_Q4.parquet"
+  },
+  {
+    "dataset": "db1b_market",
+    "year": 2012,
+    "quarter": 1,
+    "downloaded_at": "2026-03-10T09:43:37",
+    "rows": 5307048,
+    "file": "db1b_mkt/quarter/dbmkt_2012_Q1.parquet"
+  },
+  {
+    "dataset": "db1b_market",
+    "year": 2012,
+    "quarter": 2,
+    "downloaded_at": "2026-03-10T09:45:05",
+    "rows": 5879839,
+    "file": "db1b_mkt/quarter/dbmkt_2012_Q2.parquet"
+  },
+  {
+    "dataset": "db1b_market",
+    "year": 2012,
+    "quarter": 3,
+    "downloaded_at": "2026-03-10T09:46:50",
+    "rows": 5736949,
+    "file": "db1b_mkt/quarter/dbmkt_2012_Q3.parquet"
+  },
+  {
+    "dataset": "db1b_market",
+    "year": 2012,
+    "quarter": 4,
+    "downloaded_at": "2026-03-10T09:48:10",
+    "rows": 5780006,
+    "file": "db1b_mkt/quarter/dbmkt_2012_Q4.parquet"
+  },
+  {
+    "dataset": "db1b_market",
+    "year": 2013,
+    "quarter": 1,
+    "downloaded_at": "2026-03-10T09:49:44",
+    "rows": 5259289,
+    "file": "db1b_mkt/quarter/dbmkt_2013_Q1.parquet"
+  },
+  {
+    "dataset": "db1b_market",
+    "year": 2013,
+    "quarter": 2,
+    "downloaded_at": "2026-03-10T09:51:08",
+    "rows": 6029125,
+    "file": "db1b_mkt/quarter/dbmkt_2013_Q2.parquet"
+  },
+  {
+    "dataset": "db1b_market",
+    "year": 2013,
+    "quarter": 3,
+    "downloaded_at": "2026-03-10T09:52:29",
+    "rows": 5815426,
+    "file": "db1b_mkt/quarter/dbmkt_2013_Q3.parquet"
+  },
+  {
+    "dataset": "db1b_market",
+    "year": 2013,
+    "quarter": 4,
+    "downloaded_at": "2026-03-10T09:53:54",
+    "rows": 5743523,
+    "file": "db1b_mkt/quarter/dbmkt_2013_Q4.parquet"
+  },
+  {
+    "dataset": "db1b_market",
+    "year": 2014,
+    "quarter": 1,
+    "downloaded_at": "2026-03-10T09:55:30",
+    "rows": 5421606,
+    "file": "db1b_mkt/quarter/dbmkt_2014_Q1.parquet"
+  },
+  {
+    "dataset": "db1b_market",
+    "year": 2014,
+    "quarter": 2,
+    "downloaded_at": "2026-03-10T09:56:55",
+    "rows": 6295145,
+    "file": "db1b_mkt/quarter/dbmkt_2014_Q2.parquet"
+  },
+  {
+    "dataset": "db1b_market",
+    "year": 2014,
+    "quarter": 3,
+    "downloaded_at": "2026-03-10T09:58:21",
+    "rows": 6380810,
+    "file": "db1b_mkt/quarter/dbmkt_2014_Q3.parquet"
+  },
+  {
+    "dataset": "db1b_market",
+    "year": 2014,
+    "quarter": 4,
+    "downloaded_at": "2026-03-10T10:00:16",
+    "rows": 6275151,
+    "file": "db1b_mkt/quarter/dbmkt_2014_Q4.parquet"
+  },
+  {
+    "dataset": "db1b_ticket",
+    "year": 1993,
+    "quarter": 1,
+    "downloaded_at": "2026-03-10T10:06:08",
+    "rows": 1490952,
+    "file": "db1b_tix/quarter/dbtix_1993_Q1.parquet"
+  },
+  {
+    "dataset": "db1b_ticket",
+    "year": 1993,
+    "quarter": 2,
+    "downloaded_at": "2026-03-10T10:06:30",
+    "rows": 1888646,
+    "file": "db1b_tix/quarter/dbtix_1993_Q2.parquet"
+  },
+  {
+    "dataset": "db1b_ticket",
+    "year": 1993,
+    "quarter": 3,
+    "downloaded_at": "2026-03-10T10:06:54",
+    "rows": 1793453,
+    "file": "db1b_tix/quarter/dbtix_1993_Q3.parquet"
+  },
+  {
+    "dataset": "db1b_ticket",
+    "year": 1993,
+    "quarter": 4,
+    "downloaded_at": "2026-03-10T10:07:12",
+    "rows": 1812252,
+    "file": "db1b_tix/quarter/dbtix_1993_Q4.parquet"
+  },
+  {
+    "dataset": "db1b_ticket",
+    "year": 1994,
+    "quarter": 1,
+    "downloaded_at": "2026-03-10T10:07:29",
+    "rows": 1548016,
+    "file": "db1b_tix/quarter/dbtix_1994_Q1.parquet"
+  },
+  {
+    "dataset": "db1b_ticket",
+    "year": 1994,
+    "quarter": 2,
+    "downloaded_at": "2026-03-10T10:07:47",
+    "rows": 1683084,
+    "file": "db1b_tix/quarter/dbtix_1994_Q2.parquet"
+  },
+  {
+    "dataset": "db1b_ticket",
+    "year": 1994,
+    "quarter": 3,
+    "downloaded_at": "2026-03-10T10:08:16",
+    "rows": 1734951,
+    "file": "db1b_tix/quarter/dbtix_1994_Q3.parquet"
+  },
+  {
+    "dataset": "db1b_ticket",
+    "year": 1994,
+    "quarter": 4,
+    "downloaded_at": "2026-03-10T10:08:35",
+    "rows": 1778702,
+    "file": "db1b_tix/quarter/dbtix_1994_Q4.parquet"
+  },
+  {
+    "dataset": "db1b_ticket",
+    "year": 1995,
+    "quarter": 1,
+    "downloaded_at": "2026-03-10T10:08:53",
+    "rows": 1718006,
+    "file": "db1b_tix/quarter/dbtix_1995_Q1.parquet"
+  },
+  {
+    "dataset": "db1b_ticket",
+    "year": 1995,
+    "quarter": 2,
+    "downloaded_at": "2026-03-10T10:09:22",
+    "rows": 1842325,
+    "file": "db1b_tix/quarter/dbtix_1995_Q2.parquet"
+  },
+  {
+    "dataset": "db1b_ticket",
+    "year": 1995,
+    "quarter": 3,
+    "downloaded_at": "2026-03-10T10:09:40",
+    "rows": 1842246,
+    "file": "db1b_tix/quarter/dbtix_1995_Q3.parquet"
+  },
+  {
+    "dataset": "db1b_ticket",
+    "year": 1995,
+    "quarter": 4,
+    "downloaded_at": "2026-03-10T10:09:59",
+    "rows": 1951458,
+    "file": "db1b_tix/quarter/dbtix_1995_Q4.parquet"
+  },
+  {
+    "dataset": "db1b_ticket",
+    "year": 1996,
+    "quarter": 1,
+    "downloaded_at": "2026-03-10T10:10:23",
+    "rows": 1991271,
+    "file": "db1b_tix/quarter/dbtix_1996_Q1.parquet"
+  },
+  {
+    "dataset": "db1b_ticket",
+    "year": 1996,
+    "quarter": 2,
+    "downloaded_at": "2026-03-10T10:10:44",
+    "rows": 1975378,
+    "file": "db1b_tix/quarter/dbtix_1996_Q2.parquet"
+  },
+  {
+    "dataset": "db1b_ticket",
+    "year": 1996,
+    "quarter": 3,
+    "downloaded_at": "2026-03-10T10:11:20",
+    "rows": 1944005,
+    "file": "db1b_tix/quarter/dbtix_1996_Q3.parquet"
+  },
+  {
+    "dataset": "db1b_ticket",
+    "year": 1996,
+    "quarter": 4,
+    "downloaded_at": "2026-03-10T10:11:40",
+    "rows": 1996898,
+    "file": "db1b_tix/quarter/dbtix_1996_Q4.parquet"
+  },
+  {
+    "dataset": "db1b_ticket",
+    "year": 1997,
+    "quarter": 1,
+    "downloaded_at": "2026-03-10T10:12:00",
+    "rows": 1867984,
+    "file": "db1b_tix/quarter/dbtix_1997_Q1.parquet"
+  },
+  {
+    "dataset": "db1b_ticket",
+    "year": 1997,
+    "quarter": 2,
+    "downloaded_at": "2026-03-10T10:12:20",
+    "rows": 2083192,
+    "file": "db1b_tix/quarter/dbtix_1997_Q2.parquet"
+  },
+  {
+    "dataset": "db1b_ticket",
+    "year": 1997,
+    "quarter": 3,
+    "downloaded_at": "2026-03-10T10:12:41",
+    "rows": 2078793,
+    "file": "db1b_tix/quarter/dbtix_1997_Q3.parquet"
+  },
+  {
+    "dataset": "db1b_ticket",
+    "year": 1997,
+    "quarter": 4,
+    "downloaded_at": "2026-03-10T10:13:04",
+    "rows": 2029201,
+    "file": "db1b_tix/quarter/dbtix_1997_Q4.parquet"
+  },
+  {
+    "dataset": "db1b_ticket",
+    "year": 1998,
+    "quarter": 1,
+    "downloaded_at": "2026-03-10T10:13:23",
+    "rows": 1836436,
+    "file": "db1b_tix/quarter/dbtix_1998_Q1.parquet"
+  },
+  {
+    "dataset": "db1b_ticket",
+    "year": 1998,
+    "quarter": 2,
+    "downloaded_at": "2026-03-10T10:13:54",
+    "rows": 2091986,
+    "file": "db1b_tix/quarter/dbtix_1998_Q2.parquet"
+  },
+  {
+    "dataset": "db1b_ticket",
+    "year": 1998,
+    "quarter": 3,
+    "downloaded_at": "2026-03-10T10:14:17",
+    "rows": 2154723,
+    "file": "db1b_tix/quarter/dbtix_1998_Q3.parquet"
+  },
+  {
+    "dataset": "db1b_ticket",
+    "year": 1998,
+    "quarter": 4,
+    "downloaded_at": "2026-03-10T10:14:43",
+    "rows": 2289196,
+    "file": "db1b_tix/quarter/dbtix_1998_Q4.parquet"
+  },
+  {
+    "dataset": "db1b_ticket",
+    "year": 1999,
+    "quarter": 1,
+    "downloaded_at": "2026-03-10T10:15:07",
+    "rows": 2117958,
+    "file": "db1b_tix/quarter/dbtix_1999_Q1.parquet"
+  },
+  {
+    "dataset": "db1b_ticket",
+    "year": 1999,
+    "quarter": 2,
+    "downloaded_at": "2026-03-10T10:15:34",
+    "rows": 2328687,
+    "file": "db1b_tix/quarter/dbtix_1999_Q2.parquet"
+  },
+  {
+    "dataset": "db1b_ticket",
+    "year": 1999,
+    "quarter": 3,
+    "downloaded_at": "2026-03-10T10:15:58",
+    "rows": 2338305,
+    "file": "db1b_tix/quarter/dbtix_1999_Q3.parquet"
+  },
+  {
+    "dataset": "db1b_ticket",
+    "year": 1999,
+    "quarter": 4,
+    "downloaded_at": "2026-03-10T10:16:23",
+    "rows": 2431351,
+    "file": "db1b_tix/quarter/dbtix_1999_Q4.parquet"
+  },
+  {
+    "dataset": "db1b_ticket",
+    "year": 2000,
+    "quarter": 1,
+    "downloaded_at": "2026-03-10T10:16:47",
+    "rows": 2392625,
+    "file": "db1b_tix/quarter/dbtix_2000_Q1.parquet"
+  },
+  {
+    "dataset": "db1b_ticket",
+    "year": 2000,
+    "quarter": 2,
+    "downloaded_at": "2026-03-10T10:17:16",
+    "rows": 2666495,
+    "file": "db1b_tix/quarter/dbtix_2000_Q2.parquet"
+  },
+  {
+    "dataset": "db1b_ticket",
+    "year": 2000,
+    "quarter": 3,
+    "downloaded_at": "2026-03-10T10:17:42",
+    "rows": 2481570,
+    "file": "db1b_tix/quarter/dbtix_2000_Q3.parquet"
+  },
+  {
+    "dataset": "db1b_ticket",
+    "year": 2000,
+    "quarter": 4,
+    "downloaded_at": "2026-03-10T10:18:12",
+    "rows": 2567355,
+    "file": "db1b_tix/quarter/dbtix_2000_Q4.parquet"
+  },
+  {
+    "dataset": "db1b_ticket",
+    "year": 2001,
+    "quarter": 1,
+    "downloaded_at": "2026-03-10T10:18:40",
+    "rows": 2275902,
+    "file": "db1b_tix/quarter/dbtix_2001_Q1.parquet"
+  },
+  {
+    "dataset": "db1b_ticket",
+    "year": 2001,
+    "quarter": 2,
+    "downloaded_at": "2026-03-10T10:19:16",
+    "rows": 2599538,
+    "file": "db1b_tix/quarter/dbtix_2001_Q2.parquet"
+  },
+  {
+    "dataset": "db1b_ticket",
+    "year": 2001,
+    "quarter": 3,
+    "downloaded_at": "2026-03-10T10:19:50",
+    "rows": 2352576,
+    "file": "db1b_tix/quarter/dbtix_2001_Q3.parquet"
+  },
+  {
+    "dataset": "db1b_ticket",
+    "year": 2001,
+    "quarter": 4,
+    "downloaded_at": "2026-03-10T10:20:15",
+    "rows": 2281679,
+    "file": "db1b_tix/quarter/dbtix_2001_Q4.parquet"
+  },
+  {
+    "dataset": "db1b_ticket",
+    "year": 2002,
+    "quarter": 1,
+    "downloaded_at": "2026-03-10T10:20:51",
+    "rows": 2277004,
+    "file": "db1b_tix/quarter/dbtix_2002_Q1.parquet"
+  },
+  {
+    "dataset": "db1b_ticket",
+    "year": 2002,
+    "quarter": 2,
+    "downloaded_at": "2026-03-10T10:21:16",
+    "rows": 2491399,
+    "file": "db1b_tix/quarter/dbtix_2002_Q2.parquet"
+  },
+  {
+    "dataset": "db1b_ticket",
+    "year": 2002,
+    "quarter": 3,
+    "downloaded_at": "2026-03-10T10:21:41",
+    "rows": 2418752,
+    "file": "db1b_tix/quarter/dbtix_2002_Q3.parquet"
+  },
+  {
+    "dataset": "db1b_ticket",
+    "year": 2002,
+    "quarter": 4,
+    "downloaded_at": "2026-03-10T10:22:05",
+    "rows": 2365036,
+    "file": "db1b_tix/quarter/dbtix_2002_Q4.parquet"
+  },
+  {
+    "dataset": "db1b_ticket",
+    "year": 2012,
+    "quarter": 2,
+    "downloaded_at": "2026-03-10T11:34:29",
+    "rows": 3393442,
+    "file": "db1b_tix/quarter/dbtix_2012_Q2.parquet"
+  },
+  {
+    "dataset": "db1b_ticket",
+    "year": 2012,
+    "quarter": 3,
+    "downloaded_at": "2026-03-10T11:35:50",
+    "rows": 3340282,
+    "file": "db1b_tix/quarter/dbtix_2012_Q3.parquet"
+  },
+  {
+    "dataset": "db1b_ticket",
+    "year": 2012,
+    "quarter": 4,
+    "downloaded_at": "2026-03-10T11:38:13",
+    "rows": 3321311,
+    "file": "db1b_tix/quarter/dbtix_2012_Q4.parquet"
+  },
+  {
+    "dataset": "db1b_ticket",
+    "year": 2013,
+    "quarter": 1,
+    "downloaded_at": "2026-03-10T11:40:05",
+    "rows": 3046411,
+    "file": "db1b_tix/quarter/dbtix_2013_Q1.parquet"
+  },
+  {
+    "dataset": "db1b_ticket",
+    "year": 2013,
+    "quarter": 2,
+    "downloaded_at": "2026-03-10T11:41:32",
+    "rows": 3494192,
+    "file": "db1b_tix/quarter/dbtix_2013_Q2.parquet"
+  },
+  {
+    "dataset": "db1b_ticket",
+    "year": 2013,
+    "quarter": 3,
+    "downloaded_at": "2026-03-10T11:46:02",
+    "rows": 3380284,
+    "file": "db1b_tix/quarter/dbtix_2013_Q3.parquet"
+  },
+  {
+    "dataset": "db1b_ticket",
+    "year": 2013,
+    "quarter": 4,
+    "downloaded_at": "2026-03-10T11:48:01",
+    "rows": 3286327,
+    "file": "db1b_tix/quarter/dbtix_2013_Q4.parquet"
+  },
+  {
+    "dataset": "db1b_market",
+    "year": 2001,
+    "quarter": 2,
+    "downloaded_at": "2026-04-10T06:07:44",
+    "rows": 4864098,
+    "file": "db1b_mkt/quarter/dbmkt_2001_Q2.parquet"
+  },
+  {
+    "dataset": "db1b_market",
+    "year": 2003,
+    "quarter": 1,
+    "downloaded_at": "2026-04-10T06:09:16",
+    "rows": 3968335,
+    "file": "db1b_mkt/quarter/dbmkt_2003_Q1.parquet"
+  },
+  {
+    "dataset": "db1b_market",
+    "year": 2003,
+    "quarter": 4,
+    "downloaded_at": "2026-04-10T06:10:25",
+    "rows": 4799949,
+    "file": "db1b_mkt/quarter/dbmkt_2003_Q4.parquet"
+  },
+  {
+    "dataset": "db1b_ticket",
+    "year": 2003,
+    "quarter": 1,
+    "downloaded_at": "2026-04-10T06:28:18",
+    "rows": 2139162,
+    "file": "db1b_tix/quarter/dbtix_2003_Q1.parquet"
+  },
+  {
+    "dataset": "db1b_ticket",
+    "year": 2003,
+    "quarter": 2,
+    "downloaded_at": "2026-04-10T06:28:42",
+    "rows": 2523037,
+    "file": "db1b_tix/quarter/dbtix_2003_Q2.parquet"
+  },
+  {
+    "dataset": "db1b_ticket",
+    "year": 2003,
+    "quarter": 3,
+    "downloaded_at": "2026-04-10T06:30:24",
+    "rows": 2373773,
+    "file": "db1b_tix/quarter/dbtix_2003_Q3.parquet"
+  },
+  {
+    "dataset": "db1b_ticket",
+    "year": 2003,
+    "quarter": 4,
+    "downloaded_at": "2026-04-10T06:30:49",
+    "rows": 2567576,
+    "file": "db1b_tix/quarter/dbtix_2003_Q4.parquet"
+  },
+  {
+    "dataset": "db1b_ticket",
+    "year": 2004,
+    "quarter": 1,
+    "downloaded_at": "2026-04-10T06:31:12",
+    "rows": 2302268,
+    "file": "db1b_tix/quarter/dbtix_2004_Q1.parquet"
+  },
+  {
+    "dataset": "db1b_ticket",
+    "year": 2004,
+    "quarter": 2,
+    "downloaded_at": "2026-04-10T06:31:38",
+    "rows": 2681267,
+    "file": "db1b_tix/quarter/dbtix_2004_Q2.parquet"
+  },
+  {
+    "dataset": "db1b_ticket",
+    "year": 2004,
+    "quarter": 3,
+    "downloaded_at": "2026-04-10T06:33:23",
+    "rows": 2553227,
+    "file": "db1b_tix/quarter/dbtix_2004_Q3.parquet"
+  },
+  {
+    "dataset": "db1b_ticket",
+    "year": 2004,
+    "quarter": 4,
+    "downloaded_at": "2026-04-10T06:33:49",
+    "rows": 2721189,
+    "file": "db1b_tix/quarter/dbtix_2004_Q4.parquet"
+  },
+  {
+    "dataset": "db1b_ticket",
+    "year": 2005,
+    "quarter": 1,
+    "downloaded_at": "2026-04-10T06:34:15",
+    "rows": 2561453,
+    "file": "db1b_tix/quarter/dbtix_2005_Q1.parquet"
+  },
+  {
+    "dataset": "db1b_ticket",
+    "year": 2005,
+    "quarter": 2,
+    "downloaded_at": "2026-04-10T06:34:43",
+    "rows": 2926765,
+    "file": "db1b_tix/quarter/dbtix_2005_Q2.parquet"
+  },
+  {
+    "dataset": "db1b_ticket",
+    "year": 2005,
+    "quarter": 3,
+    "downloaded_at": "2026-04-10T06:35:11",
+    "rows": 2887768,
+    "file": "db1b_tix/quarter/dbtix_2005_Q3.parquet"
+  },
+  {
+    "dataset": "db1b_ticket",
+    "year": 2005,
+    "quarter": 4,
+    "downloaded_at": "2026-04-10T06:35:39",
+    "rows": 2815975,
+    "file": "db1b_tix/quarter/dbtix_2005_Q4.parquet"
+  },
+  {
+    "dataset": "db1b_ticket",
+    "year": 2006,
+    "quarter": 1,
+    "downloaded_at": "2026-04-10T06:36:06",
+    "rows": 2660789,
+    "file": "db1b_tix/quarter/dbtix_2006_Q1.parquet"
+  },
+  {
+    "dataset": "db1b_ticket",
+    "year": 2006,
+    "quarter": 2,
+    "downloaded_at": "2026-04-10T06:36:36",
+    "rows": 3048105,
+    "file": "db1b_tix/quarter/dbtix_2006_Q2.parquet"
+  },
+  {
+    "dataset": "db1b_ticket",
+    "year": 2006,
+    "quarter": 3,
+    "downloaded_at": "2026-04-10T06:38:18",
+    "rows": 2893948,
+    "file": "db1b_tix/quarter/dbtix_2006_Q3.parquet"
+  },
+  {
+    "dataset": "db1b_ticket",
+    "year": 2006,
+    "quarter": 4,
+    "downloaded_at": "2026-04-10T06:38:46",
+    "rows": 2850754,
+    "file": "db1b_tix/quarter/dbtix_2006_Q4.parquet"
+  },
+  {
+    "dataset": "db1b_ticket",
+    "year": 2007,
+    "quarter": 1,
+    "downloaded_at": "2026-04-10T06:39:12",
+    "rows": 2698807,
+    "file": "db1b_tix/quarter/dbtix_2007_Q1.parquet"
+  },
+  {
+    "dataset": "db1b_ticket",
+    "year": 2007,
+    "quarter": 2,
+    "downloaded_at": "2026-04-10T06:41:31",
+    "rows": 3024798,
+    "file": "db1b_tix/quarter/dbtix_2007_Q2.parquet"
+  },
+  {
+    "dataset": "db1b_ticket",
+    "year": 2007,
+    "quarter": 3,
+    "downloaded_at": "2026-04-10T06:42:00",
+    "rows": 2970901,
+    "file": "db1b_tix/quarter/dbtix_2007_Q3.parquet"
+  },
+  {
+    "dataset": "db1b_ticket",
+    "year": 2007,
+    "quarter": 4,
+    "downloaded_at": "2026-04-10T06:42:28",
+    "rows": 2982157,
+    "file": "db1b_tix/quarter/dbtix_2007_Q4.parquet"
+  },
+  {
+    "dataset": "db1b_ticket",
+    "year": 2008,
+    "quarter": 1,
+    "downloaded_at": "2026-04-10T06:44:35",
+    "rows": 2828956,
+    "file": "db1b_tix/quarter/dbtix_2008_Q1.parquet"
+  },
+  {
+    "dataset": "db1b_ticket",
+    "year": 2008,
+    "quarter": 2,
+    "downloaded_at": "2026-04-10T06:45:07",
+    "rows": 3375637,
+    "file": "db1b_tix/quarter/dbtix_2008_Q2.parquet"
+  },
+  {
+    "dataset": "db1b_ticket",
+    "year": 2008,
+    "quarter": 3,
+    "downloaded_at": "2026-04-10T06:45:36",
+    "rows": 2981510,
+    "file": "db1b_tix/quarter/dbtix_2008_Q3.parquet"
+  },
+  {
+    "dataset": "db1b_ticket",
+    "year": 2008,
+    "quarter": 4,
+    "downloaded_at": "2026-04-10T06:46:03",
+    "rows": 2831909,
+    "file": "db1b_tix/quarter/dbtix_2008_Q4.parquet"
+  },
+  {
+    "dataset": "db1b_ticket",
+    "year": 2009,
+    "quarter": 1,
+    "downloaded_at": "2026-04-10T06:46:28",
+    "rows": 2482481,
+    "file": "db1b_tix/quarter/dbtix_2009_Q1.parquet"
+  },
+  {
+    "dataset": "db1b_ticket",
+    "year": 2009,
+    "quarter": 2,
+    "downloaded_at": "2026-04-10T06:48:41",
+    "rows": 2982079,
+    "file": "db1b_tix/quarter/dbtix_2009_Q2.parquet"
+  },
+  {
+    "dataset": "db1b_ticket",
+    "year": 2009,
+    "quarter": 3,
+    "downloaded_at": "2026-04-10T06:49:10",
+    "rows": 3070330,
+    "file": "db1b_tix/quarter/dbtix_2009_Q3.parquet"
+  },
+  {
+    "dataset": "db1b_ticket",
+    "year": 2009,
+    "quarter": 4,
+    "downloaded_at": "2026-04-10T06:49:40",
+    "rows": 3126899,
+    "file": "db1b_tix/quarter/dbtix_2009_Q4.parquet"
+  },
+  {
+    "dataset": "db1b_ticket",
+    "year": 2010,
+    "quarter": 1,
+    "downloaded_at": "2026-04-10T06:51:32",
+    "rows": 2835075,
+    "file": "db1b_tix/quarter/dbtix_2010_Q1.parquet"
+  },
+  {
+    "dataset": "db1b_ticket",
+    "year": 2010,
+    "quarter": 2,
+    "downloaded_at": "2026-04-10T06:53:16",
+    "rows": 3327211,
+    "file": "db1b_tix/quarter/dbtix_2010_Q2.parquet"
+  },
+  {
+    "dataset": "db1b_ticket",
+    "year": 2010,
+    "quarter": 3,
+    "downloaded_at": "2026-04-10T06:53:47",
+    "rows": 3243255,
+    "file": "db1b_tix/quarter/dbtix_2010_Q3.parquet"
+  },
+  {
+    "dataset": "db1b_ticket",
+    "year": 2010,
+    "quarter": 4,
+    "downloaded_at": "2026-04-10T06:54:18",
+    "rows": 3282521,
+    "file": "db1b_tix/quarter/dbtix_2010_Q4.parquet"
+  },
+  {
+    "dataset": "db1b_ticket",
+    "year": 2011,
+    "quarter": 1,
+    "downloaded_at": "2026-04-10T06:54:50",
+    "rows": 3139866,
+    "file": "db1b_tix/quarter/dbtix_2011_Q1.parquet"
+  },
+  {
+    "dataset": "db1b_ticket",
+    "year": 2011,
+    "quarter": 2,
+    "downloaded_at": "2026-04-10T06:55:23",
+    "rows": 3439580,
+    "file": "db1b_tix/quarter/dbtix_2011_Q2.parquet"
+  },
+  {
+    "dataset": "db1b_ticket",
+    "year": 2011,
+    "quarter": 3,
+    "downloaded_at": "2026-04-10T06:57:12",
+    "rows": 3469335,
+    "file": "db1b_tix/quarter/dbtix_2011_Q3.parquet"
+  },
+  {
+    "dataset": "db1b_ticket",
+    "year": 2011,
+    "quarter": 4,
+    "downloaded_at": "2026-04-10T06:57:44",
+    "rows": 3294722,
+    "file": "db1b_tix/quarter/dbtix_2011_Q4.parquet"
+  },
+  {
+    "dataset": "db1b_ticket",
+    "year": 2012,
+    "quarter": 1,
+    "downloaded_at": "2026-04-10T07:00:23",
+    "rows": 3072707,
+    "file": "db1b_tix/quarter/dbtix_2012_Q1.parquet"
+  },
+  {
+    "dataset": "db1b_ticket",
+    "year": 2014,
+    "quarter": 1,
+    "downloaded_at": "2026-04-10T07:01:17",
+    "rows": 3179233,
+    "file": "db1b_tix/quarter/dbtix_2014_Q1.parquet"
+  },
+  {
+    "dataset": "db1b_ticket",
+    "year": 2014,
+    "quarter": 2,
+    "downloaded_at": "2026-04-10T07:02:15",
+    "rows": 3667172,
+    "file": "db1b_tix/quarter/dbtix_2014_Q2.parquet"
+  },
+  {
+    "dataset": "db1b_ticket",
+    "year": 2014,
+    "quarter": 3,
+    "downloaded_at": "2026-04-10T07:04:49",
+    "rows": 3730932,
+    "file": "db1b_tix/quarter/dbtix_2014_Q3.parquet"
+  },
+  {
+    "dataset": "t100_market",
+    "year": 2026,
+    "downloaded_at": "2026-04-15T06:00:13",
+    "rows": 26714,
+    "file": "t100_mkt/t100_mkt_2026.parquet"
+  },
+  {
+    "dataset": "t100_segment",
+    "year": 2026,
+    "downloaded_at": "2026-04-15T06:00:43",
+    "rows": 47257,
+    "file": "t100_seg/t100_seg_2026.parquet"
+  },
+  {
+    "dataset": "od40",
+    "year": 2025,
+    "month": 7,
+    "downloaded_at": "2026-04-16T16:00:20",
+    "rows": 14638341,
+    "file": "od40/month/od40_2025_07.parquet"
+  },
+  {
+    "dataset": "od40",
+    "year": 2025,
+    "month": 8,
+    "downloaded_at": "2026-04-16T16:00:33",
+    "rows": 13689693,
+    "file": "od40/month/od40_2025_08.parquet"
+  },
+  {
+    "dataset": "od40",
+    "year": 2025,
+    "month": 9,
+    "downloaded_at": "2026-04-16T16:00:46",
+    "rows": 12010559,
+    "file": "od40/month/od40_2025_09.parquet"
+  },
+  {
+    "dataset": "od40",
+    "year": 2025,
+    "month": 10,
+    "downloaded_at": "2026-04-16T16:01:04",
+    "rows": 13813374,
+    "file": "od40/month/od40_2025_10.parquet"
+  },
+  {
+    "dataset": "od40",
+    "year": 2025,
+    "month": 11,
+    "downloaded_at": "2026-04-16T16:01:20",
+    "rows": 12194164,
+    "file": "od40/month/od40_2025_11.parquet"
+  }
+]
