@@ -300,7 +300,8 @@
       ],
       "notes": [
         "Q3 2025+ sourced from OD40 (DB1C monthly) rescaled to 10%-sample equivalent.",
-        "RT/OW split may show small drift (+1 to +2 pp) at the Q2 \u2192 Q3 2025 boundary; keep source-native and comparable fare/yield fields distinct.",
+        "RT/OW split may show small drift (+1 to +2 pp) at the Q2 \u2192 Q3 2025 boundary.",
+        "Ticket fare/yield fields are not yet gross-comparable: DB1B uses gross ItinFare, while OD40-derived Q3 2025+ ticket fare fields currently use TotalAmt - TaxAmt.",
         "See METHODOLOGY.md for full details."
       ]
     },

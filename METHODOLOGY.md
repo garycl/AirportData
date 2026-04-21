@@ -9,8 +9,8 @@ Machine-readable ranges and per-dataset notes are in [`data_availability.json`](
 | Dataset | Path | Grain | Period | Source |
 |---|---|---|---|---|
 | DB1B Market (aggregated, by origin) | `db1b_mkt/dbmkt_YYYY_aggregated.parquet` | Origin × Quarter | 1993Q1 – current | BTS DB1B + OD40 |
-| DB1B Market (O-D pair) | `db1b_mkt/dbmkt_YYYY.parquet` | Origin-Dest × Quarter | 1993Q1 – 2025Q2 | BTS DB1B |
-| DB1B Ticket (aggregated) | `db1b_tix/dbtix_YYYY_aggregated.parquet` | Origin × Quarter | 1993Q1 – 2025Q2 | BTS DB1B |
+| DB1B Market (O-D pair) | `db1b_mkt/dbmkt_YYYY.parquet` | Origin-Dest × Quarter | 1993Q1 – current | BTS DB1B + OD40 |
+| DB1B Ticket (aggregated) | `db1b_tix/dbtix_YYYY_aggregated.parquet` | Origin × Quarter | 1993Q1 – current | BTS DB1B + OD40 |
 | T-100 Segment / Market | `t100_{seg,mkt}/t100_*_YYYY.parquet` | Carrier × Origin × Dest × Month | 1990M1 – current | BTS T-100 |
 | OD40 / DB1C | `od40/` | Ticket, segment, market, carrier (monthly) | 2025-07+ | BTS OD40 (DB1C) |
 
@@ -18,20 +18,39 @@ Machine-readable ranges and per-dataset notes are in [`data_availability.json`](
 
 ## ⚠ Important: methodology break at 2025 Q2 → Q3
 
-BTS retired the quarterly DB1B survey after Q2 2025 and replaced it with the **OD40 monthly (DB1C)** survey. The two surveys sample different fractions (10% vs 40%), collapse rows differently, and use different fare-proration algorithms.
+BTS retired the quarterly DB1B survey after Q2 2025 and replaced it with the **OD40 monthly (DB1C)** survey. The two surveys sample different fractions (10% vs 40%), changed reporting rules and reporting-carrier coverage, add new fields, and report at different time grains.
 
-**The DB1B Market per-origin aggregated file (`dbmkt_YYYY_aggregated.parquet`) blends both surveys for 2025** so downstream dashboards see continuous time series:
+**The DB1B-shaped market and ticket files blend both surveys for 2025** so downstream dashboards see continuous time series:
 - 2025 Q1/Q2: legacy DB1B (10% sample, BTS native proration)
 - 2025 Q3/Q4: OD40 rescaled to 10%-sample equivalent
 
-### Expected discontinuities at the Q2/Q3 2025 boundary
+The structural break remains real and should stay visible through source-native fields and methodology notes. Comparable defaults are intended for trend charts, not for erasing every survey-design difference.
 
-| Column | Expected Δ at boundary | Explanation |
-|---|---|---|
-| `PAX` | ≈ 0 | Sample rescaling compensates — LAX 2025 Q2 ≈ 1.04 M vs Q3 ≈ 1.02 M. |
-| `PWMktFareYield` | **−7 to −10 %** | OD40 per-market yields run below DB1B's. Cause: BTS uses a proprietary SIPP-style fare-construction proration; our OD40 derivation uses simple mileage proration. Gap is consistent across LAX top markets (ratio 0.85–1.00, pax-weighted 0.93). |
-| `AvgMktFare` | ~−5 to −10 % | Same cause as yield. |
-| `MktFareYield` (unweighted "Simple" mode) | additional **−30 % drop** | DB1B's numerator sums fares across pre-collapsed records (one row = N passengers). DB1C doesn't collapse (one row = 1 passenger). "Simple" mode compares different denominators on each side — **not a meaningful metric across the boundary**. Prefer `PWMktFareYield`. |
+### Market fare/yield contract
+
+For `db1b_mkt/dbmkt_YYYY_aggregated.parquet`, the default fare/yield fields are gross/tax-inclusive comparable fields:
+
+- DB1B: `ItinFare * MktMilesFlown / MilesFlown`
+- OD40: `TotalAmt * market_flown_miles / total_flown_miles`
+
+Use additive components when combining airports or periods:
+
+```
+AvgMktFare      = sum(PWMktFare) / sum(MktFarePAX)
+PWMktFareYield  = sum(PWMktFare) / sum(PWMktMilesFlown)
+```
+
+Do not average already-computed fares or yields across airports. `SourceNative` suffix columns retain the original DB1B/OD40-native basis for audit and break analysis. The explicit `*GrossComparable` columns are retained as lineage aliases for the default market fare/yield fields.
+
+### Ticket fare/yield caveat
+
+`db1b_tix/dbtix_YYYY_aggregated.parquet` extends through OD40 for Q3/Q4 2025, and passenger counts plus RT/OW shares are sample-rescaled. Ticket fare/yield fields are **not yet gross-comparable**: legacy DB1B `ItinFare`/`FarePerMile` are gross/tax-inclusive, while OD40-derived Q3/Q4 2025 ticket fare fields currently use `TotalAmt - TaxAmt`.
+
+Treat ticket `ItinFare`, `FarePerMile`, `RTItinFare`, and `RTFarePerMile` as source-native across the 2025 Q2 -> Q3 boundary until separate gross-comparable ticket fields are published.
+
+### Dashboard aggregation and NPIAS filtering
+
+Fare allocation is done across the full itinerary and full set of markets before airport filtering. The dashboard then aggregates airport-period rows, filters displayed origins to the NPIAS-primary scope, and recomputes final totals, average fare, and yield from additive components. If an origin is NPIAS-primary and a destination is not, the destination remains part of that origin's network and fare/yield denominator.
 
 ### Pre-existing DB1B bug fixed 2026-04
 
@@ -75,6 +94,7 @@ If you need raw granularity, run the download scripts yourself from [dot-downloa
 
 ## Changelog
 
+- **2026-04-21** — Published gross/tax-inclusive market comparable defaults, retained source-native market fields with `SourceNative` suffixes, clarified that ticket fare/yield comparability is still pending, and backfilled missing 2014Q4 DB1B Ticket cache used by market comparable fare allocation.
 - **2026-04-17** — Added OD40 (DB1C) support; fixed DB1B `AvgMktFare` pax-weighting bug; regenerated 1993–2025 aggregates. Added this document.
 - **2026-02-10** — Updated NPIAS hub classifications to FY25.
 - See git log for earlier changes.
