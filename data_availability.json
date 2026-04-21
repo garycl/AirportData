@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-17T13:24:13",
+  "generated_at": "2026-04-21T11:23:11",
   "overall": {
     "min_period": "1990Q1",
     "max_period": "2026Q1",
@@ -152,7 +152,7 @@
       ],
       "notes": [
         "Q3 2025+ sourced from OD40 (DB1C monthly) rescaled to 10%-sample equivalent.",
-        "Fare and yield ~7-10% lower in OD40 vs legacy DB1B due to different fare-proration algorithms (BTS proprietary vs mileage-prorated net fare).",
+        "Default fare/yield fields are gross-comparable for trend continuity; source-native DOT/derived fields are retained with SourceNative suffixes.",
         "AvgMktFare changed 2026-04 to pax-weighted (PWMktFare / MktFarePAX); prior values were biased low.",
         "See METHODOLOGY.md for full details."
       ]
@@ -300,7 +300,7 @@
       ],
       "notes": [
         "Q3 2025+ sourced from OD40 (DB1C monthly) rescaled to 10%-sample equivalent.",
-        "RT/OW split may show small drift (+1 to +2 pp) at the Q2 \u2192 Q3 2025 boundary; fare/yield ~7-10% lower in OD40 vs legacy DB1B due to different fare-proration algorithms.",
+        "RT/OW split may show small drift (+1 to +2 pp) at the Q2 \u2192 Q3 2025 boundary; keep source-native and comparable fare/yield fields distinct.",
         "See METHODOLOGY.md for full details."
       ]
     },
