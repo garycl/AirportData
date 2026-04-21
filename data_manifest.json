@@ -2100,5 +2100,13 @@
     "downloaded_at": "2026-04-16T16:01:20",
     "rows": 12194164,
     "file": "od40/month/od40_2025_11.parquet"
+  },
+  {
+    "dataset": "db1b_ticket",
+    "year": 2014,
+    "quarter": 4,
+    "downloaded_at": "2026-04-21T11:53:00",
+    "rows": 3613712,
+    "file": "db1b_tix/quarter/dbtix_2014_Q4.parquet"
   }
 ]
