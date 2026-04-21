@@ -42,11 +42,23 @@ PWMktFareYield  = sum(PWMktFare) / sum(PWMktMilesFlown)
 
 Do not average already-computed fares or yields across airports. `SourceNative` suffix columns retain the original DB1B/OD40-native basis for audit and break analysis. The explicit `*GrossComparable` columns are retained as lineage aliases for the default market fare/yield fields.
 
-### Ticket fare/yield caveat
+### Ticket fare/yield contract
 
-`db1b_tix/dbtix_YYYY_aggregated.parquet` extends through OD40 for Q3/Q4 2025, and passenger counts plus RT/OW shares are sample-rescaled. Ticket fare/yield fields are **not yet gross-comparable**: legacy DB1B `ItinFare`/`FarePerMile` are gross/tax-inclusive, while OD40-derived Q3/Q4 2025 ticket fare fields currently use `TotalAmt - TaxAmt`.
+`db1b_tix/dbtix_YYYY_aggregated.parquet` extends through OD40 for Q3/Q4 2025, and passenger counts plus RT/OW shares are sample-rescaled. Default ticket fare/yield fields are gross/tax-inclusive comparable fields:
 
-Treat ticket `ItinFare`, `FarePerMile`, `RTItinFare`, and `RTFarePerMile` as source-native across the 2025 Q2 -> Q3 boundary until separate gross-comparable ticket fields are published.
+- DB1B: gross `ItinFare`
+- OD40: gross `TotalAmt`
+
+Use additive components when combining airports or periods:
+
+```
+ItinFare       = sum(ItinFareDollarsGross) / sum(ItinFarePAXGross)
+FarePerMile    = sum(ItinFareDollarsGross) / sum(ItinPaxMilesGross)
+RTItinFare     = sum(RTItinFareDollarsGross) / sum(RTItinFarePAXGross)
+RTFarePerMile  = sum(RTItinFareDollarsGross) / sum(RTItinPaxMilesGross)
+```
+
+Here `FarePerMile` is an aggregate itinerary yield, not an average of precomputed ticket-level fare-per-mile ratios. OD40 net/tax-exclusive economics are retained in explicit `NetTaxExclusive` fields.
 
 ### Dashboard aggregation and NPIAS filtering
 
@@ -94,7 +106,7 @@ If you need raw granularity, run the download scripts yourself from [dot-downloa
 
 ## Changelog
 
-- **2026-04-21** — Published gross/tax-inclusive market comparable defaults, retained source-native market fields with `SourceNative` suffixes, clarified that ticket fare/yield comparability is still pending, and backfilled missing 2014Q4 DB1B Ticket cache used by market comparable fare allocation.
+- **2026-04-21** — Published gross/tax-inclusive market and ticket comparable defaults, retained source-native/net fields separately, added additive fare-dollar and pax-mile components for dashboard ratio recomputation, fixed 2024/2025 DB1B roundtrip ticket fare regeneration, and backfilled missing 2014Q4 DB1B Ticket cache used by market comparable fare allocation.
 - **2026-04-17** — Added OD40 (DB1C) support; fixed DB1B `AvgMktFare` pax-weighting bug; regenerated 1993–2025 aggregates. Added this document.
 - **2026-02-10** — Updated NPIAS hub classifications to FY25.
 - See git log for earlier changes.
