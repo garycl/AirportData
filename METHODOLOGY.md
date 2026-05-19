@@ -12,8 +12,9 @@ Machine-readable ranges and per-dataset notes are in [`data_availability.json`](
 | DB1B Market (O-D pair) | `db1b_mkt/dbmkt_YYYY.parquet` | Origin-Dest × Quarter | 1993Q1 – current | BTS DB1B + OD40 |
 | DB1B Ticket (aggregated) | `db1b_tix/dbtix_YYYY_aggregated.parquet` | Origin × Quarter | 1993Q1 – current | BTS DB1B + OD40 |
 | T-100 Segment / Market | `t100_{seg,mkt}/t100_*_YYYY.parquet` | Carrier × Origin × Dest × Month | 1990M1 – current | BTS T-100 |
-| OD40 / DB1C | `od40/` | Ticket, segment, market, carrier (monthly) | 2025-07+ | BTS OD40 (DB1C) |
-| Airport fuel prices | `airport_fuel.parquet` | Airport × FBO × Fuel × Service | weekly snapshots, current only | AirNav.com (scraped) |
+| OD40 / DB1C | `od40/mkt/od40_mkt_YYYY_aggregated.parquet`, `od40/tix/od40_tix_YYYY_aggregated.parquet` (also `od40/carrier/`, `od40/month/`) | Ticket, segment, market, carrier (monthly) | 2025-07+ | BTS OD40 (DB1C) |
+| Form 41 | `form41/p12/form41_p12_YYYY_Q{q}.parquet`, `form41/p52/form41_p52_YYYY_Q{q}.parquet`, `form41/p6/form41_p6_YYYY_Q{q}.parquet` | Operating expenses and ASMs by carrier and aircraft group (quarterly) | 2019Q1 – current | BTS Form 41 Schedules P-12, P-5.2, P-6 |
+| Airport fuel prices | `airport_fuel.parquet` | Airport × FBO × Fuel × Service | weekly snapshots | AirNav.com (scraped) |
 
 ---
 
@@ -107,18 +108,19 @@ If you need raw granularity, run the download scripts yourself from [dot-downloa
 
 ## Airport fuel prices
 
-`airport_fuel.parquet` carries 100LL and Jet A retail prices (Full / Self service) for NPIAS airports. Phase 1 covers all L/M/S commercial hubs plus non-hub primary airports with `EP_CY23 ≥ 100,000` (~223 airports, ~750 rows per snapshot). The pipeline overwrites this file on each weekly run; the `snapshot_date` column inside the parquet is the authoritative freshness timestamp.
+`airport_fuel.parquet` carries 100LL and Jet A retail prices for NPIAS airports, preserving AirNav's service categories (`Full service`, `Self service`, `Assisted/Self Service`, and `Pump service`). Phase 1 covers all L/M/S commercial hubs plus non-hub primary airports with `EP_CY23 ≥ 100,000` (~223 airports, ~750 analytic rows per snapshot). The pipeline appends weekly snapshots and replaces same-date rows on reruns; the `snapshot_date` column inside the parquet is the authoritative freshness timestamp.
 
 **Source:** Public AirNav.com airport pages — every row's `Source_URL` column links to the specific FBO page the price was scraped from. The pipeline is rate-limited to ~0.5 requests per second with on-disk caching, and respects AirNav's `503 Service Temporarily Unavailable` signal as a fail-fast rate-limit indicator.
 
-**Schema:** `snapshot_date, ICAO, LocID, Airport_Name, Hub_FY25, EP_CY23, FBO, Parent_Operator, Fuel_Type, Service_Type, Price, Last_Updated, Source_URL, Audit_Status`. `Audit_Status="Unaudited"` for successful scrapes; `"No FBO data"` and `"Parse error"` rows mark airports where scraping returned no usable rows (visible failure rather than silent drop).
+**Schema:** `snapshot_date, ICAO, LocID, Airport_Name, Hub_FY25, EP_CY23, FBO, Parent_Operator, Fuel_Type, Service_Type, Price, Last_Updated, Source_URL`. The operational Excel detail output retains `"No FBO data"` / `"Parse error"` audit rows for review, but the parquet is the analytic surface and contains only successful fuel-price rows.
 
-**Caveats:** Some airports (military bases, some Pacific territories) have sparse or no AirNav coverage. Service codes outside `{FS, SS}` (e.g., `PS`, `AS`) currently surface as Parse error rows pending classification. Pipeline source: [garycl/fuel-price](https://github.com/garycl/fuel-price) (scraper + spec + plan).
+**Caveats:** Some airports (military bases, some Pacific territories) have sparse or no AirNav coverage. The parser currently classifies AirNav service codes `{FS, SS, AS, PS}`; any new priced service code should surface as an Excel parse-error row until its meaning is verified. Pipeline source: [garycl/fuel-price](https://github.com/garycl/fuel-price) (scraper + spec + plan).
 
 ---
 
 ## Changelog
 
+- **2026-05-19** — Refreshed fuel prices; classified AirNav `AS` (Assisted/Self Service) and `PS` (Pump service); updated dashboard support for all fuel service types.
 - **2026-05-07** — Added `airport_fuel.parquet` (weekly AirNav fuel-price snapshots for 223 NPIAS Phase 1 airports).
 - **2026-04-21** — Published gross/tax-inclusive market and ticket comparable defaults, retained source-native/net fields separately, added additive fare-dollar and pax-mile components for dashboard ratio recomputation, fixed 2024/2025 DB1B roundtrip ticket fare regeneration, and backfilled missing 2014Q4 DB1B Ticket cache used by market comparable fare allocation.
 - **2026-04-17** — Added OD40 (DB1C) support; fixed DB1B `AvgMktFare` pax-weighting bug; regenerated 1993–2025 aggregates. Added this document.
