@@ -28,6 +28,12 @@ BTS retired the quarterly DB1B survey after Q2 2025 and replaced it with the **O
 
 The structural break remains real and should stay visible through source-native fields and methodology notes. Comparable defaults are intended for trend charts, not for erasing every survey-design difference.
 
+### Production refresh rule
+
+Current O&D refreshes must run through `od40_pipeline.py` in the `dot-download` repo. The pipeline downloads OD40/DB1C, derives DB1B-shaped dashboard aggregates, refreshes `data_availability.json`, and validates that derived OD40 quarters are present in the dashboard-facing `db1b_mkt/` and `db1b_tix/` aggregate files.
+
+Do not use `db1b_download.py` for scheduled or current O&D updates. DB1B is historical-only after 2025 Q2. A pure DB1B rebuild can overwrite the merged dashboard files with 2025 Q1/Q2-only data, causing `data_availability.json` and dashboards to regress to 2025Q2 even though OD40 Q3/Q4 files exist separately. If a bounded legacy DB1B backfill is needed, rerun `od40_pipeline.py --no-push` afterward and require the merge validation to pass before committing or pushing data.
+
 ### Market fare/yield contract
 
 For `db1b_mkt/dbmkt_YYYY_aggregated.parquet`, the default fare/yield fields are gross/tax-inclusive comparable fields:
@@ -120,6 +126,7 @@ If you need raw granularity, run the download scripts yourself from [dot-downloa
 
 ## Changelog
 
+- **2026-05-20** — Switched current O&D refresh operations to `od40_pipeline.py`; disabled scheduled DB1B pulls; restored merged 2025Q3/Q4 OD40 rows in dashboard-facing `db1b_mkt` and `db1b_tix` aggregates; added merge-validation guardrails to prevent a pure DB1B rebuild from regressing availability to 2025Q2.
 - **2026-05-19** — Refreshed fuel prices; classified AirNav `AS` (Assisted/Self Service) and `PS` (Pump service); updated dashboard support for all fuel service types.
 - **2026-05-07** — Added `airport_fuel.parquet` (weekly AirNav fuel-price snapshots for 223 NPIAS Phase 1 airports).
 - **2026-04-21** — Published gross/tax-inclusive market and ticket comparable defaults, retained source-native/net fields separately, added additive fare-dollar and pax-mile components for dashboard ratio recomputation, fixed 2024/2025 DB1B roundtrip ticket fare regeneration, and backfilled missing 2014Q4 DB1B Ticket cache used by market comparable fare allocation.
