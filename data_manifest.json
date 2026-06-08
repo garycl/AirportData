@@ -2108,5 +2108,19 @@
     "downloaded_at": "2026-04-21T11:53:00",
     "rows": 3613712,
     "file": "db1b_tix/quarter/dbtix_2014_Q4.parquet"
+  },
+  {
+    "dataset": "t100_segment",
+    "year": 2025,
+    "downloaded_at": "2026-06-03T09:41:06",
+    "rows": 570272,
+    "file": "t100_seg/t100_seg_2025.parquet"
+  },
+  {
+    "dataset": "t100_segment",
+    "year": 2026,
+    "downloaded_at": "2026-06-03T09:41:26",
+    "rows": 91440,
+    "file": "t100_seg/t100_seg_2026.parquet"
   }
 ]
