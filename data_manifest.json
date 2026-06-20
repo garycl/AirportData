@@ -2122,5 +2122,53 @@
     "downloaded_at": "2026-06-03T09:41:26",
     "rows": 91440,
     "file": "t100_seg/t100_seg_2026.parquet"
+  },
+  {
+    "dataset": "form41_p12",
+    "year": 2025,
+    "quarter": 4,
+    "downloaded_at": "2026-06-20T06:00:18",
+    "rows": 96,
+    "file": "form41/p12/form41_p12_2025_Q4.parquet"
+  },
+  {
+    "dataset": "form41_p12",
+    "year": 2026,
+    "quarter": 1,
+    "downloaded_at": "2026-06-20T06:00:22",
+    "rows": 95,
+    "file": "form41/p12/form41_p12_2026_Q1.parquet"
+  },
+  {
+    "dataset": "form41_p52",
+    "year": 2025,
+    "quarter": 4,
+    "downloaded_at": "2026-06-20T06:39:08",
+    "rows": 600,
+    "file": "form41/p52/form41_p52_2025_Q4.parquet"
+  },
+  {
+    "dataset": "form41_p52",
+    "year": 2026,
+    "quarter": 1,
+    "downloaded_at": "2026-06-20T06:39:13",
+    "rows": 617,
+    "file": "form41/p52/form41_p52_2026_Q1.parquet"
+  },
+  {
+    "dataset": "form41_p6",
+    "year": 2025,
+    "quarter": 4,
+    "downloaded_at": "2026-06-20T06:39:32",
+    "rows": 2046,
+    "file": "form41/p6/form41_p6_2025_Q4.parquet"
+  },
+  {
+    "dataset": "form41_p6",
+    "year": 2026,
+    "quarter": 1,
+    "downloaded_at": "2026-06-20T06:39:36",
+    "rows": 1952,
+    "file": "form41/p6/form41_p6_2026_Q1.parquet"
   }
 ]
