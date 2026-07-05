@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-20T13:33:15",
+  "generated_at": "2026-07-05T18:47:02",
   "overall": {
     "min_period": "1990Q1",
     "max_period": "2026Q1",
@@ -11,11 +11,11 @@
   "datasets": {
     "db1b_market": {
       "min_period": "1993Q1",
-      "max_period": "2025Q4",
+      "max_period": "2026Q1",
       "min_year": 1993,
-      "max_year": 2025,
+      "max_year": 2026,
       "min_quarter": 1,
-      "max_quarter": 4,
+      "max_quarter": 1,
       "quarters": [
         "1993Q1",
         "1993Q2",
@@ -148,7 +148,8 @@
         "2025Q1",
         "2025Q2",
         "2025Q3",
-        "2025Q4"
+        "2025Q4",
+        "2026Q1"
       ],
       "notes": [
         "Q3 2025+ sourced from OD40 (DB1C monthly) rescaled to 10%-sample equivalent.",
@@ -159,11 +160,11 @@
     },
     "db1b_ticket": {
       "min_period": "1993Q1",
-      "max_period": "2025Q4",
+      "max_period": "2026Q1",
       "min_year": 1993,
-      "max_year": 2025,
+      "max_year": 2026,
       "min_quarter": 1,
-      "max_quarter": 4,
+      "max_quarter": 1,
       "quarters": [
         "1993Q1",
         "1993Q2",
@@ -296,7 +297,8 @@
         "2025Q1",
         "2025Q2",
         "2025Q3",
-        "2025Q4"
+        "2025Q4",
+        "2026Q1"
       ],
       "notes": [
         "Q3 2025+ sourced from OD40 (DB1C monthly) rescaled to 10%-sample equivalent.",
@@ -621,14 +623,15 @@
     },
     "od40_market": {
       "min_period": "2025Q3",
-      "max_period": "2025Q4",
+      "max_period": "2026Q1",
       "min_year": 2025,
-      "max_year": 2025,
+      "max_year": 2026,
       "min_quarter": 3,
-      "max_quarter": 4,
+      "max_quarter": 1,
       "quarters": [
         "2025Q3",
-        "2025Q4"
+        "2025Q4",
+        "2026Q1"
       ],
       "months": [
         "2025-07",
@@ -636,7 +639,10 @@
         "2025-09",
         "2025-10",
         "2025-11",
-        "2025-12"
+        "2025-12",
+        "2026-01",
+        "2026-02",
+        "2026-03"
       ],
       "notes": [
         "Native 40% sample; divide PAX by 0.40 to weight to 100%.",

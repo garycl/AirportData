@@ -2170,5 +2170,50 @@
     "downloaded_at": "2026-06-20T06:39:36",
     "rows": 1952,
     "file": "form41/p6/form41_p6_2026_Q1.parquet"
+  },
+  {
+    "dataset": "t100_market",
+    "year": 2026,
+    "downloaded_at": "2026-07-05T17:21:46",
+    "rows": 81206,
+    "file": "t100_mkt/t100_mkt_2026.parquet"
+  },
+  {
+    "dataset": "t100_market",
+    "year": 2025,
+    "downloaded_at": "2026-07-05T17:29:00",
+    "rows": 327170,
+    "file": "t100_mkt/t100_mkt_2025.parquet"
+  },
+  {
+    "dataset": "t100_segment",
+    "year": 2026,
+    "downloaded_at": "2026-07-05T17:31:19",
+    "rows": 141747,
+    "file": "t100_seg/t100_seg_2026.parquet"
+  },
+  {
+    "dataset": "od40",
+    "year": 2026,
+    "month": 1,
+    "downloaded_at": "2026-07-05T17:58:46",
+    "rows": 10402745,
+    "file": "od40/month/od40_2026_01.parquet"
+  },
+  {
+    "dataset": "od40",
+    "year": 2026,
+    "month": 2,
+    "downloaded_at": "2026-07-05T18:17:56",
+    "rows": 10990728,
+    "file": "od40/month/od40_2026_02.parquet"
+  },
+  {
+    "dataset": "od40",
+    "year": 2026,
+    "month": 3,
+    "downloaded_at": "2026-07-05T18:43:16",
+    "rows": 13072897,
+    "file": "od40/month/od40_2026_03.parquet"
   }
 ]
