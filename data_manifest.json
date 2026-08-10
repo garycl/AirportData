@@ -2215,5 +2215,40 @@
     "downloaded_at": "2026-07-05T18:43:16",
     "rows": 13072897,
     "file": "od40/month/od40_2026_03.parquet"
+  },
+  {
+    "dataset": "t100_market",
+    "year": 1990,
+    "downloaded_at": "2026-08-04T10:11:01",
+    "rows": 216078,
+    "file": "t100_mkt/t100_mkt_1990.parquet"
+  },
+  {
+    "dataset": "t100_market",
+    "year": 1991,
+    "downloaded_at": "2026-08-04T10:11:29",
+    "rows": 208607,
+    "file": "t100_mkt/t100_mkt_1991.parquet"
+  },
+  {
+    "dataset": "t100_market",
+    "year": 1992,
+    "downloaded_at": "2026-08-04T10:11:57",
+    "rows": 213257,
+    "file": "t100_mkt/t100_mkt_1992.parquet"
+  },
+  {
+    "dataset": "t100_market",
+    "year": 1993,
+    "downloaded_at": "2026-08-04T10:12:27",
+    "rows": 215127,
+    "file": "t100_mkt/t100_mkt_1993.parquet"
+  },
+  {
+    "dataset": "t100_market",
+    "year": 1994,
+    "downloaded_at": "2026-08-04T10:12:55",
+    "rows": 212150,
+    "file": "t100_mkt/t100_mkt_1994.parquet"
   }
 ]
