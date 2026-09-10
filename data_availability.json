@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-05T18:47:02",
+  "generated_at": "2026-09-10T06:00:03",
   "overall": {
     "min_period": "1990Q1",
-    "max_period": "2026Q1",
+    "max_period": "2026Q2",
     "min_year": 1990,
     "max_year": 2026,
     "min_quarter": 1,
-    "max_quarter": 1
+    "max_quarter": 2
   },
   "datasets": {
     "db1b_market": {
@@ -310,11 +310,11 @@
     },
     "t100_segment": {
       "min_period": "1990Q1",
-      "max_period": "2026Q1",
+      "max_period": "2026Q2",
       "min_year": 1990,
       "max_year": 2026,
       "min_quarter": 1,
-      "max_quarter": 1,
+      "max_quarter": 2,
       "quarters": [
         "1990Q1",
         "1990Q2",
@@ -460,7 +460,8 @@
         "2025Q2",
         "2025Q3",
         "2025Q4",
-        "2026Q1"
+        "2026Q1",
+        "2026Q2"
       ],
       "notes": [
         "Always updated with a reporting lag; most recent quarters may have only 1-2 months filed."
