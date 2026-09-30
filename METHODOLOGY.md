@@ -1,6 +1,6 @@
 # AirportData — Methodology & Caveats
 
-This repo publishes aggregated BTS aviation data. The code that produces it lives at **[github.com/garycl/dot-download](https://github.com/garycl/dot-download)**.
+This repo publishes aggregated BTS aviation data. The code that produces it lives at **[github.com/Unison-Consulting-Inc/dot-download](https://github.com/Unison-Consulting-Inc/dot-download)**.
 
 Machine-readable ranges and per-dataset notes are in [`data_availability.json`](./data_availability.json).
 
@@ -108,7 +108,7 @@ The per-origin aggregates strip carrier entirely (group by Origin × Quarter). F
 
 Raw per-quarter (DB1B) and per-month (OD40) parquets are **too large for GitHub** (100 MB–1 GB each) and are not in this repo. They live in the local Dropbox data directory on the maintainer's machine; the pipeline ingests them and writes only the small aggregated outputs here.
 
-If you need raw granularity, run the download scripts yourself from [dot-download](https://github.com/garycl/dot-download).
+If you need raw granularity, run the download scripts yourself from [dot-download](https://github.com/Unison-Consulting-Inc/dot-download).
 
 ---
 
@@ -120,7 +120,7 @@ If you need raw granularity, run the download scripts yourself from [dot-downloa
 
 **Schema:** `snapshot_date, ICAO, LocID, Airport_Name, Hub_FY25, EP_CY23, FBO, Parent_Operator, Fuel_Type, Service_Type, Price, Last_Updated, Source_URL`. The operational Excel detail output retains `"No FBO data"` / `"Parse error"` audit rows for review, but the parquet is the analytic surface and contains only successful fuel-price rows.
 
-**Caveats:** Some airports (military bases, some Pacific territories) have sparse or no AirNav coverage. The parser currently classifies AirNav service codes `{FS, SS, AS, PS}`; any new priced service code should surface as an Excel parse-error row until its meaning is verified. Pipeline source: [garycl/fuel-price](https://github.com/garycl/fuel-price) (scraper + spec + plan).
+**Caveats:** Some airports (military bases, some Pacific territories) have sparse or no AirNav coverage. The parser currently classifies AirNav service codes `{FS, SS, AS, PS}`; any new priced service code should surface as an Excel parse-error row until its meaning is verified. Pipeline source: [Unison-Consulting-Inc/fuel-price](https://github.com/Unison-Consulting-Inc/fuel-price) (scraper + spec + plan).
 
 ---
 

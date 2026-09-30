@@ -2250,5 +2250,493 @@
     "downloaded_at": "2026-08-04T10:12:55",
     "rows": 212150,
     "file": "t100_mkt/t100_mkt_1994.parquet"
+  },
+  {
+    "dataset": "od40",
+    "year": 2025,
+    "month": 7,
+    "downloaded_at": "2026-08-08T13:08:39",
+    "rows": 14638341,
+    "file": "od40/month/od40_2025_07.parquet"
+  },
+  {
+    "dataset": "od40",
+    "year": 2025,
+    "month": 8,
+    "downloaded_at": "2026-08-08T13:08:44",
+    "rows": 13689693,
+    "file": "od40/month/od40_2025_08.parquet"
+  },
+  {
+    "dataset": "od40",
+    "year": 2025,
+    "month": 9,
+    "downloaded_at": "2026-08-08T13:08:53",
+    "rows": 12010559,
+    "file": "od40/month/od40_2025_09.parquet"
+  },
+  {
+    "dataset": "od40",
+    "year": 2025,
+    "month": 10,
+    "downloaded_at": "2026-08-08T13:08:58",
+    "rows": 13813374,
+    "file": "od40/month/od40_2025_10.parquet"
+  },
+  {
+    "dataset": "od40",
+    "year": 2025,
+    "month": 11,
+    "downloaded_at": "2026-08-08T13:09:03",
+    "rows": 12194164,
+    "file": "od40/month/od40_2025_11.parquet"
+  },
+  {
+    "dataset": "od40",
+    "year": 2025,
+    "month": 12,
+    "downloaded_at": "2026-08-08T13:09:07",
+    "rows": 13512370,
+    "file": "od40/month/od40_2025_12.parquet"
+  },
+  {
+    "dataset": "od40",
+    "year": 2026,
+    "month": 1,
+    "downloaded_at": "2026-08-08T13:09:11",
+    "rows": 10402745,
+    "file": "od40/month/od40_2026_01.parquet"
+  },
+  {
+    "dataset": "od40",
+    "year": 2026,
+    "month": 2,
+    "downloaded_at": "2026-08-08T13:09:16",
+    "rows": 10990728,
+    "file": "od40/month/od40_2026_02.parquet"
+  },
+  {
+    "dataset": "od40",
+    "year": 2026,
+    "month": 3,
+    "downloaded_at": "2026-08-08T13:09:26",
+    "rows": 13072897,
+    "file": "od40/month/od40_2026_03.parquet"
+  },
+  {
+    "dataset": "od40",
+    "year": 2025,
+    "month": 7,
+    "downloaded_at": "2026-08-10T15:38:29",
+    "rows": 14638341,
+    "file": "od40/month/od40_2025_07.parquet"
+  },
+  {
+    "dataset": "od40",
+    "year": 2025,
+    "month": 8,
+    "downloaded_at": "2026-08-10T15:38:36",
+    "rows": 13689693,
+    "file": "od40/month/od40_2025_08.parquet"
+  },
+  {
+    "dataset": "od40",
+    "year": 2025,
+    "month": 9,
+    "downloaded_at": "2026-08-10T15:38:44",
+    "rows": 12010559,
+    "file": "od40/month/od40_2025_09.parquet"
+  },
+  {
+    "dataset": "od40",
+    "year": 2025,
+    "month": 10,
+    "downloaded_at": "2026-08-10T15:38:49",
+    "rows": 13813374,
+    "file": "od40/month/od40_2025_10.parquet"
+  },
+  {
+    "dataset": "od40",
+    "year": 2025,
+    "month": 11,
+    "downloaded_at": "2026-08-10T15:38:56",
+    "rows": 12194164,
+    "file": "od40/month/od40_2025_11.parquet"
+  },
+  {
+    "dataset": "od40",
+    "year": 2025,
+    "month": 12,
+    "downloaded_at": "2026-08-10T15:39:01",
+    "rows": 13512370,
+    "file": "od40/month/od40_2025_12.parquet"
+  },
+  {
+    "dataset": "od40",
+    "year": 2026,
+    "month": 1,
+    "downloaded_at": "2026-08-10T15:39:11",
+    "rows": 10402745,
+    "file": "od40/month/od40_2026_01.parquet"
+  },
+  {
+    "dataset": "od40",
+    "year": 2026,
+    "month": 2,
+    "downloaded_at": "2026-08-10T15:39:16",
+    "rows": 10990728,
+    "file": "od40/month/od40_2026_02.parquet"
+  },
+  {
+    "dataset": "od40",
+    "year": 2026,
+    "month": 3,
+    "downloaded_at": "2026-08-10T15:39:26",
+    "rows": 13072897,
+    "file": "od40/month/od40_2026_03.parquet"
+  },
+  {
+    "dataset": "od40",
+    "year": 2025,
+    "month": 7,
+    "downloaded_at": "2026-09-10T12:12:18",
+    "rows": 14638341,
+    "file": "od40/month/od40_2025_07.parquet"
+  },
+  {
+    "dataset": "od40",
+    "year": 2025,
+    "month": 8,
+    "downloaded_at": "2026-09-10T12:12:37",
+    "rows": 13689693,
+    "file": "od40/month/od40_2025_08.parquet"
+  },
+  {
+    "dataset": "od40",
+    "year": 2025,
+    "month": 9,
+    "downloaded_at": "2026-09-10T12:12:52",
+    "rows": 12010559,
+    "file": "od40/month/od40_2025_09.parquet"
+  },
+  {
+    "dataset": "od40",
+    "year": 2025,
+    "month": 10,
+    "downloaded_at": "2026-09-10T12:13:02",
+    "rows": 13813374,
+    "file": "od40/month/od40_2025_10.parquet"
+  },
+  {
+    "dataset": "od40",
+    "year": 2025,
+    "month": 11,
+    "downloaded_at": "2026-09-10T12:13:13",
+    "rows": 12194164,
+    "file": "od40/month/od40_2025_11.parquet"
+  },
+  {
+    "dataset": "od40",
+    "year": 2025,
+    "month": 12,
+    "downloaded_at": "2026-09-10T12:13:23",
+    "rows": 13512370,
+    "file": "od40/month/od40_2025_12.parquet"
+  },
+  {
+    "dataset": "od40",
+    "year": 2026,
+    "month": 1,
+    "downloaded_at": "2026-09-10T12:13:31",
+    "rows": 10402745,
+    "file": "od40/month/od40_2026_01.parquet"
+  },
+  {
+    "dataset": "od40",
+    "year": 2026,
+    "month": 2,
+    "downloaded_at": "2026-09-10T12:13:39",
+    "rows": 10990728,
+    "file": "od40/month/od40_2026_02.parquet"
+  },
+  {
+    "dataset": "od40",
+    "year": 2026,
+    "month": 3,
+    "downloaded_at": "2026-09-10T12:13:48",
+    "rows": 13072897,
+    "file": "od40/month/od40_2026_03.parquet"
+  },
+  {
+    "dataset": "form41_p12",
+    "year": 2026,
+    "quarter": 2,
+    "downloaded_at": "2026-09-20T12:02:06",
+    "rows": 96,
+    "file": "form41/p12/form41_p12_2026_Q2.parquet"
+  },
+  {
+    "dataset": "form41_p52",
+    "year": 2026,
+    "quarter": 2,
+    "downloaded_at": "2026-09-20T12:02:17",
+    "rows": 630,
+    "file": "form41/p52/form41_p52_2026_Q2.parquet"
+  },
+  {
+    "dataset": "form41_p6",
+    "year": 2026,
+    "quarter": 2,
+    "downloaded_at": "2026-09-20T12:02:27",
+    "rows": 1960,
+    "file": "form41/p6/form41_p6_2026_Q2.parquet"
+  },
+  {
+    "dataset": "t100_market",
+    "year": 2025,
+    "downloaded_at": "2026-09-24T13:42:29",
+    "rows": 327350,
+    "file": "t100_mkt/t100_mkt_2025.parquet"
+  },
+  {
+    "dataset": "t100_market",
+    "year": 2026,
+    "downloaded_at": "2026-09-24T13:42:51",
+    "rows": 163785,
+    "file": "t100_mkt/t100_mkt_2026.parquet"
+  },
+  {
+    "dataset": "t100_segment",
+    "year": 2025,
+    "downloaded_at": "2026-09-24T13:44:13",
+    "rows": 571205,
+    "file": "t100_seg/t100_seg_2025.parquet"
+  },
+  {
+    "dataset": "t100_segment",
+    "year": 2026,
+    "downloaded_at": "2026-09-24T13:44:54",
+    "rows": 284287,
+    "file": "t100_seg/t100_seg_2026.parquet"
+  },
+  {
+    "dataset": "od40",
+    "year": 2025,
+    "month": 7,
+    "downloaded_at": "2026-09-24T14:00:02",
+    "rows": 14653099,
+    "file": "od40/month/od40_2025_07.parquet"
+  },
+  {
+    "dataset": "od40",
+    "year": 2025,
+    "month": 8,
+    "downloaded_at": "2026-09-24T14:00:10",
+    "rows": 13703239,
+    "file": "od40/month/od40_2025_08.parquet"
+  },
+  {
+    "dataset": "od40",
+    "year": 2025,
+    "month": 9,
+    "downloaded_at": "2026-09-24T14:00:18",
+    "rows": 12022697,
+    "file": "od40/month/od40_2025_09.parquet"
+  },
+  {
+    "dataset": "od40",
+    "year": 2025,
+    "month": 10,
+    "downloaded_at": "2026-09-24T14:00:26",
+    "rows": 13825512,
+    "file": "od40/month/od40_2025_10.parquet"
+  },
+  {
+    "dataset": "od40",
+    "year": 2025,
+    "month": 11,
+    "downloaded_at": "2026-09-24T14:00:40",
+    "rows": 12203311,
+    "file": "od40/month/od40_2025_11.parquet"
+  },
+  {
+    "dataset": "od40",
+    "year": 2025,
+    "month": 12,
+    "downloaded_at": "2026-09-24T14:00:48",
+    "rows": 13522888,
+    "file": "od40/month/od40_2025_12.parquet"
+  },
+  {
+    "dataset": "od40",
+    "year": 2026,
+    "month": 1,
+    "downloaded_at": "2026-09-24T14:00:54",
+    "rows": 10402745,
+    "file": "od40/month/od40_2026_01.parquet"
+  },
+  {
+    "dataset": "od40",
+    "year": 2026,
+    "month": 2,
+    "downloaded_at": "2026-09-24T14:01:01",
+    "rows": 10990728,
+    "file": "od40/month/od40_2026_02.parquet"
+  },
+  {
+    "dataset": "od40",
+    "year": 2026,
+    "month": 3,
+    "downloaded_at": "2026-09-24T14:01:09",
+    "rows": 13543729,
+    "file": "od40/month/od40_2026_03.parquet"
+  },
+  {
+    "dataset": "od40",
+    "year": 2026,
+    "month": 4,
+    "downloaded_at": "2026-09-24T14:01:18",
+    "rows": 12835558,
+    "file": "od40/month/od40_2026_04.parquet"
+  },
+  {
+    "dataset": "od40",
+    "year": 2026,
+    "month": 5,
+    "downloaded_at": "2026-09-24T14:01:27",
+    "rows": 13517709,
+    "file": "od40/month/od40_2026_05.parquet"
+  },
+  {
+    "dataset": "od40",
+    "year": 2026,
+    "month": 6,
+    "downloaded_at": "2026-09-24T14:01:35",
+    "rows": 13822006,
+    "file": "od40/month/od40_2026_06.parquet"
+  },
+  {
+    "dataset": "od40",
+    "year": 2025,
+    "month": 7,
+    "downloaded_at": "2026-09-24T14:28:43",
+    "rows": 14653099,
+    "file": "od40/month/od40_2025_07.parquet"
+  },
+  {
+    "dataset": "od40",
+    "year": 2025,
+    "month": 8,
+    "downloaded_at": "2026-09-24T14:28:52",
+    "rows": 13703239,
+    "file": "od40/month/od40_2025_08.parquet"
+  },
+  {
+    "dataset": "od40",
+    "year": 2025,
+    "month": 9,
+    "downloaded_at": "2026-09-24T14:28:59",
+    "rows": 12022697,
+    "file": "od40/month/od40_2025_09.parquet"
+  },
+  {
+    "dataset": "od40",
+    "year": 2025,
+    "month": 10,
+    "downloaded_at": "2026-09-24T14:29:07",
+    "rows": 13825512,
+    "file": "od40/month/od40_2025_10.parquet"
+  },
+  {
+    "dataset": "od40",
+    "year": 2025,
+    "month": 11,
+    "downloaded_at": "2026-09-24T14:29:15",
+    "rows": 12203311,
+    "file": "od40/month/od40_2025_11.parquet"
+  },
+  {
+    "dataset": "od40",
+    "year": 2025,
+    "month": 12,
+    "downloaded_at": "2026-09-24T14:29:23",
+    "rows": 13522888,
+    "file": "od40/month/od40_2025_12.parquet"
+  },
+  {
+    "dataset": "od40",
+    "year": 2026,
+    "month": 1,
+    "downloaded_at": "2026-09-24T14:29:30",
+    "rows": 10402745,
+    "file": "od40/month/od40_2026_01.parquet"
+  },
+  {
+    "dataset": "od40",
+    "year": 2026,
+    "month": 2,
+    "downloaded_at": "2026-09-24T14:29:39",
+    "rows": 10990728,
+    "file": "od40/month/od40_2026_02.parquet"
+  },
+  {
+    "dataset": "od40",
+    "year": 2026,
+    "month": 3,
+    "downloaded_at": "2026-09-24T14:29:47",
+    "rows": 13543729,
+    "file": "od40/month/od40_2026_03.parquet"
+  },
+  {
+    "dataset": "od40",
+    "year": 2026,
+    "month": 4,
+    "downloaded_at": "2026-09-24T14:29:56",
+    "rows": 12835558,
+    "file": "od40/month/od40_2026_04.parquet"
+  },
+  {
+    "dataset": "od40",
+    "year": 2026,
+    "month": 5,
+    "downloaded_at": "2026-09-24T14:30:04",
+    "rows": 13517709,
+    "file": "od40/month/od40_2026_05.parquet"
+  },
+  {
+    "dataset": "od40",
+    "year": 2026,
+    "month": 6,
+    "downloaded_at": "2026-09-24T14:30:13",
+    "rows": 13822006,
+    "file": "od40/month/od40_2026_06.parquet"
+  },
+  {
+    "dataset": "t100_market",
+    "year": 2025,
+    "downloaded_at": "2026-09-24T16:46:57",
+    "rows": 327350,
+    "file": "t100_mkt/t100_mkt_2025.parquet"
+  },
+  {
+    "dataset": "t100_market",
+    "year": 2026,
+    "downloaded_at": "2026-09-24T16:47:42",
+    "rows": 163785,
+    "file": "t100_mkt/t100_mkt_2026.parquet"
+  },
+  {
+    "dataset": "t100_segment",
+    "year": 2025,
+    "downloaded_at": "2026-09-24T16:49:13",
+    "rows": 571205,
+    "file": "t100_seg/t100_seg_2025.parquet"
+  },
+  {
+    "dataset": "t100_segment",
+    "year": 2026,
+    "downloaded_at": "2026-09-24T16:50:03",
+    "rows": 284287,
+    "file": "t100_seg/t100_seg_2026.parquet"
   }
 ]
